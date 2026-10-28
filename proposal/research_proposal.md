@@ -31,8 +31,8 @@ We study a multi-agent system used in two undergraduate courses at British Unive
 | Item | Description |
 |---|---|
 | Educational goal | Practice and instant feedback in introductory programming and computing concepts |
-| Agents and roles | Exercise-generation agent, feedback agent, interactive coding-task agent, [others/coordinator?] |
-| Underlying model(s) | [LLM name and version, temperature, tools used] |
+| Agents and roles | Tutor agents that generate exercises, give instant feedback and run interactive coding tasks [list each agent and its role] |
+| Underlying model(s) | Gemini 3.8 Flash [confirm exact model ID, version/date, temperature, tools used] |
 | Information used | [student submissions, past attempts, rubric, course materials, teacher settings] |
 | Pedagogical actions | [exercise selection and difficulty, hints, corrective feedback, explanation] |
 | Adaptation rule | [how the next exercise or feedback depends on the student's input] |
@@ -44,7 +44,7 @@ We study a multi-agent system used in two undergraduate courses at British Unive
 
 ## 5. Design and participants
 
-- Setting: BUV; Algorithms and Programming Concepts and Introduction to Computing Science; semester [ ]; ethics approval [ID/status]
+- Setting: BUV; Algorithms and Programming Concepts and Introduction to Computing Science; semester [ ]; ethics approval granted by BUV [reference ID, date]
 - Students: n = 35 per course (N = 70 in total, [confirm no overlap]); instructors: [n; the lead author teaches both courses?]
 - Design: [RCT / quasi-experiment / cohort comparison / longitudinal], duration [ ] weeks
 - Condition/assignment: [ ]
@@ -66,7 +66,7 @@ Data collection: complete. Analysis: [status]. Preliminary finding to be verifie
 
 ## 9. Ethics and open science
 
-[Approval, consent, anonymisation of logs, LLM data handling.] Preregistration/data link: [OSF URL or planned date]. Materials shared: [prompts, agent configuration, anonymised data].
+Approved by BUV's research ethics process [reference ID]. [Consent procedure, anonymisation of logs, what student data is sent to the Gemini API.] Preregistration/data link: [OSF URL or planned date]. Materials shared: [prompts, agent configuration, anonymised data].
 
 ## 10. Contribution to the special issue
 
