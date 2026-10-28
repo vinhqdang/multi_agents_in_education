@@ -15,13 +15,13 @@ Teacher-configured multi-agent systems for exercise generation and instant feedb
 
 ## 1. Background and aim
 
-[2-3 sentences: the problem in the course, e.g. limited timely feedback in large undergraduate classes.]
+[2-3 sentences on the problem, e.g. limited timely feedback and practice opportunities in introductory programming courses.]
 
-We study a multi-agent system used in a university course on [course name, discipline, level]. The system generates exercises and gives students immediate feedback. The study connects two levels of the special issue: the **student level** (learning outcomes and interaction with the agents) and the **teacher level** (how instructors configure and use the agents). Student learning is the central outcome; teacher practices are examined as the mechanism that shapes it.
+We study a multi-agent system used in two undergraduate courses at British University Vietnam (BUV): Algorithms and Programming Concepts, and Introduction to Computing Science. The agents generate exercises, give students instant feedback, and produce interactive coding tasks. The study connects two levels of the special issue: the **student level** (learning outcomes and interaction with the agents) and the **teacher level** (how instructors configure and use the agents). Student learning is the central outcome; teacher practices are examined as the mechanism that shapes it.
 
 ## 2. Research questions
 
-- RQ1. How do students' learning outcomes ([outcome measure]) differ between [conditions / cohorts / levels of agent use]?
+- RQ1. How do students' learning outcomes (retention, [precise measure]) differ between [the agent-supported cohort and the comparison cohort / levels of agent use]?
 - RQ2. Which teacher design and configuration decisions ([e.g. exercise difficulty settings, feedback style, oversight actions]) are associated with differences in student outcomes?
 - RQ3. Do student-agent interaction patterns (from logs) mediate or moderate the link between teacher practices and learning outcomes?
 - RQ4. Does the system improve learning (retention, transfer) or only immediate task performance? (Yan et al., 2025)
@@ -30,8 +30,8 @@ We study a multi-agent system used in a university course on [course name, disci
 
 | Item | Description |
 |---|---|
-| Educational goal | Practice and feedback on [topics] |
-| Agents and roles | [e.g. exercise-generator agent, feedback agent, checker/verifier agent, coordinator] |
+| Educational goal | Practice and instant feedback in introductory programming and computing concepts |
+| Agents and roles | Exercise-generation agent, feedback agent, interactive coding-task agent, [others/coordinator?] |
 | Underlying model(s) | [LLM name and version, temperature, tools used] |
 | Information used | [student submissions, past attempts, rubric, course materials, teacher settings] |
 | Pedagogical actions | [exercise selection and difficulty, hints, corrective feedback, explanation] |
@@ -44,8 +44,8 @@ We study a multi-agent system used in a university course on [course name, disci
 
 ## 5. Design and participants
 
-- Setting: [university, course, semester, ethics approval ID]
-- Students: N = [ ]; teachers/instructors: N = [ ]
+- Setting: BUV; Algorithms and Programming Concepts and Introduction to Computing Science; semester [ ]; ethics approval [ID/status]
+- Students: n = 35 per course (N = 70 in total, [confirm no overlap]); instructors: [n; the lead author teaches both courses?]
 - Design: [RCT / quasi-experiment / cohort comparison / longitudinal], duration [ ] weeks
 - Condition/assignment: [ ]
 
@@ -62,7 +62,7 @@ We study a multi-agent system used in a university course on [course name, disci
 
 ## 8. Current status and preliminary findings
 
-Data collection: [complete / ongoing]. Analysis: [not started / in progress]. [Preliminary results, or "none yet".]
+Data collection: complete. Analysis: [status]. Preliminary finding to be verified before submission: retention rose from [10%] to [90%]. Before this goes into the proposal we must fix: (a) what "retention" means (re-enrolment/course completion, or delayed recall of content), (b) the comparison (previous cohort, same students over time, or control group), (c) the exact numerators and denominators, and (d) whether the change can be attributed to the agents rather than to other changes in the course.
 
 ## 9. Ethics and open science
 
