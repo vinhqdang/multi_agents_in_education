@@ -21,8 +21,8 @@ We study a multi-agent system used in two undergraduate courses at British Unive
 
 ## 2. Research questions
 
-- RQ1. How do students' learning outcomes (retention, [precise measure]) differ between [the agent-supported cohort and the comparison cohort / levels of agent use]?
-- RQ2. Which teacher design and configuration decisions ([e.g. exercise difficulty settings, feedback style, oversight actions]) are associated with differences in student outcomes?
+- RQ1. Is use of the agent tutors (frequency and depth of interaction, [Canvas/system measures]) associated with students' learning outcomes ([exam/assignment scores, delayed assessment]) compared with [the previous cohort / non-users]?
+- RQ2. Which teacher design and configuration decisions ([e.g. exercise difficulty settings, feedback style, oversight actions]) are associated with students' engagement with the agents and with their learning outcomes?
 - RQ3. Do student-agent interaction patterns (from logs) mediate or moderate the link between teacher practices and learning outcomes?
 - RQ4. Does the system improve learning (retention, transfer) or only immediate task performance? (Yan et al., 2025)
 
@@ -51,8 +51,8 @@ We study a multi-agent system used in two undergraduate courses at British Unive
 
 ## 6. Data sources and measures
 
-- **Student learning outcomes:** [pre/post test, exam scores, delayed retention test, transfer task]; distinction between performance during the task and learning measured afterwards.
-- **Process data:** system logs (number and timing of attempts, feedback requests, revision after feedback).
+- **Student learning outcomes (required, primary):** [pre/post test, exam scores, delayed retention test, transfer task]; distinction between performance during the task and learning measured afterwards.
+- **Engagement and process data (mediator):** Canvas access data and system logs (number and timing of attempts, feedback requests, revision after feedback).
 - **Teacher data:** [configuration records, reflection logs, classroom observations, interviews].
 - **Self-reports (supplementary only):** [motivation, perceived feedback quality].
 
@@ -62,7 +62,7 @@ We study a multi-agent system used in two undergraduate courses at British Unive
 
 ## 8. Current status and preliminary findings
 
-Data collection: complete. Analysis: [status]. Preliminary finding to be verified before submission: retention rose from [10%] to [90%]. Before this goes into the proposal we must fix: (a) what "retention" means (re-enrolment/course completion, or delayed recall of content), (b) the comparison (previous cohort, same students over time, or control group), (c) the exact numerators and denominators, and (d) whether the change can be attributed to the agents rather than to other changes in the course.
+Data collection: complete. Analysis: [status]. Engagement: before the agents, students rarely accessed the course on Canvas; with the agents, use was high. [Report exact usage figures, e.g. share of students active per week, from Canvas/system logs.] Engagement is a process variable here, not the outcome. The proposal still needs at least one **learning outcome** from the data: [exam or assignment scores, comparison with the previous cohort, delayed assessment]. [State what is available and the comparison.]
 
 ## 9. Ethics and open science
 
