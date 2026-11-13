@@ -45,6 +45,8 @@ Earlier educational technologies, such as learning management systems or automat
 
 A single deployment may combine several agents with different roles, for example one that generates exercises, one that gives feedback on submissions, and one that runs an interactive coding task. Coordinating them adds a layer of work: the academic must decide how the agents divide labour, what each is allowed to do, and how their outputs fit the course's learning goals and assessment rules.
 
+Three properties of these agents matter for the argument that follows. The first is **configurability**: their behaviour is not fixed by a vendor but shaped by whoever writes their instructions, which places design responsibility close to the individual teacher. The second is **fallibility**: generative models produce fluent output that can be wrong, so their use requires continuing verification rather than a one-off check. The third is **scale**: once deployed, an agent can interact with every student in a course at any hour, so both its benefits and its errors multiply. Configurability creates design work, fallibility creates verification work, and scale magnifies the consequences of both. None of these properties is captured by the common image of AI as a tool that simply saves time.
+
 ### 2.2 The augmentation promise and its limits
 
 The dominant management framing presents AI as either automating tasks (replacing human effort) or augmenting them (extending human capability), with augmentation usually seen as the more desirable path (Raisch & Krakowski, 2021). Field evidence from other settings supports the augmentation case: in a large customer-support operation, access to a generative AI assistant raised productivity, with the largest gains for less experienced workers (Brynjolfsson et al., 2025). In teaching, AI tutors are typically justified in similar terms: they give each student more practice and faster feedback than one academic can provide.
@@ -85,6 +87,14 @@ Sustainable HRM extends strategic HRM by asking whether HR practices reproduce t
 
 Star and Strauss (1999) describe work that is necessary but not seen, counted or rewarded because it falls outside formal job descriptions or because its success makes it disappear. Configuring and maintaining AI agents fits this description closely. When an agent works well, students see only its output; the effort that made it work is invisible. When it fails, the academic is visible as the person responsible.
 
+### 3.5 Integrating the lenses
+
+Each lens on its own explains part of the problem. Work design theory explains why the same AI deployment can enrich or impoverish a job, but it says less about how the resulting job characteristics translate into wellbeing over time. The JD-R model supplies that mechanism, but it treats demands and resources as given rather than asking how they come to be defined and counted. The concept of invisible work fills this gap: whether a task is formally recognised determines whether it is allocated time, and therefore whether it adds to or replaces existing demands. Sustainable HRM, finally, places these processes within the organisation's choices about how to use and reproduce its human resources, including choices about staffing.
+
+Combined, the lenses give a sequence that structures the framework in Section 5. Technology deployment changes the task composition of the job (work design). Some of the new tasks are recognised and some are not (invisible work). Unrecognised tasks act as additional demands, while recognised and self-directed ones can act as resources (JD-R). Institutional HRM practices determine which outcome dominates and whether visible efficiency gains are converted into staffing cuts (sustainable HRM). Contextual conditions in the Asia–Pacific shape each step.
+
+This integration also clarifies what the framework does not claim. It does not claim that AI tutor agents are harmful to academics, nor that they are beneficial. It claims that their effect on academic work is indeterminate at the level of technology and determined by organisational choices that HRM can influence. This is consistent with the work design view that technology's effects on jobs are a matter of design rather than destiny (Parker & Grote, 2022).
+
 ## 4. An illustrative case
 
 We use a case from the first author's own teaching to illustrate the framework. Following conventions for conceptual papers, the case is used to make the argument concrete, not to test it (Jaakkola, 2020; Whetten, 1989). We describe it as a reflexive account and note the author's dual role as designer and analyst in Section 7.
@@ -107,6 +117,24 @@ Figure 1 summarises the framework. AI tutor agent deployment reconfigures academ
 
 Deploying an AI tutor agent changes the composition of teaching work. Tasks that involve producing individual feedback and practice material are partly delegated to the agent. New tasks appear: specifying the agent's pedagogical role and limits; writing and revising instructions; testing outputs for accuracy and alignment with assessment; coordinating several agents; monitoring use; handling exceptions; and explaining the system to students and colleagues. These tasks require a mix of disciplinary, pedagogical and technical judgement and are rarely described in academic job specifications.
 
+Table 1 sets out the reconfiguration. The left column lists tasks that are partly delegated to the agents; the right column lists tasks that are created or expanded. The two columns are not equivalent in visibility. Tasks on the left are easy to count: numbers of comments written, exercises set, queries answered. Tasks on the right are harder to count because they are iterative, irregular and often done outside timetabled hours.
+
+*Table 1. Reconfiguration of teaching tasks under AI tutor agent deployment*
+
+| Tasks partly delegated to the agents (visible, countable) | Tasks created or expanded for the academic (less visible) |
+|---|---|
+| Writing individual feedback on practice work | Specifying each agent's pedagogical role, limits and tone |
+| Producing practice exercises and variations | Writing, testing and revising agent instructions |
+| Answering routine student questions | Checking agent outputs for accuracy and alignment with assessment |
+| Running supervised practice sessions | Coordinating several agents and their division of labour |
+| | Monitoring use and identifying failures or misuse |
+| | Handling exceptions, complaints and disputed feedback |
+| | Explaining the system to students, colleagues and managers |
+| | Managing cost, data protection and model changes |
+| | Bearing accountability for outputs the academic did not write |
+
+Two qualifications apply. First, the balance between the columns is not fixed. Design work is front-loaded and may decline once the agents are stable, while verification and accountability are continuing. Over a longer period the net effect on workload may therefore fall, but only if the course and model remain stable, which is rarely the case when models are updated by their providers. Second, the right-hand tasks differ in kind, not only in amount: they are more judgement-intensive and carry more personal risk than the tasks they replace.
+
 > **Proposition 1.** The deployment of AI tutor agents reallocates academic teaching work from the direct production of feedback and practice material towards design, orchestration, verification and accountability tasks, rather than reducing total teaching work.
 
 ### 5.2 New demands
@@ -119,17 +147,23 @@ The new tasks carry demands that existing workload models are poorly placed to c
 
 The same reconfiguration can also add resources. Academics who design agents gain autonomy over a new part of their practice, use a wider range of skills, see their effort reach more students and receive rapid information about how students engage. These are classic motivating job characteristics (Hackman & Oldham, 1976; Morgeson & Humphrey, 2006). Whether they operate as resources depends on control. When academics initiate and shape the deployment, it functions as job crafting (Tims et al., 2012; Wrzesniewski & Dutton, 2001) and the demands are more likely to be experienced as challenges (Tarafdar et al., 2019). When the agent is imposed, standardised or monitored from above, the same tasks are more likely to feel like algorithmic control over teaching (Kellogg et al., 2020).
 
+The case illustrates why control matters. Because the lecturer initiated the deployment, decisions about what the agents should do, how far they should go in giving answers, and how to balance cost against quality were the lecturer's to make. These choices are a source of autonomy and professional meaning. The same choices, if made by a central unit and handed to academics as a standard tool, would leave academics with the verification and accountability tasks in Table 1 but without the design tasks that make them meaningful. The demands would remain while the resources would be removed. This asymmetry is the core of Proposition 3, and it connects to the concern that AI which takes over core professional judgements can weaken professional role identity (Strich et al., 2021).
+
 > **Proposition 3.** AI tutor agent deployment increases job resources (autonomy, skill variety, task significance and feedback) for academic staff, and the positive relationship between deployment and work engagement is stronger when academics retain control over the agents' design and use.
 
 ### 5.4 Sustainable HRM as a moderator
 
 Sustainable HRM practices can determine whether AI design work regenerates or depletes academic capacity. Relevant practices include counting design and oversight work in workload models; providing time and funding for development and model access; offering training and peer support, which many university teachers say they lack (Mah & Groß, 2024); setting governance rules that clarify responsibility for agent outputs; and recognising the work in promotion and performance review. These practices act as organisational resources that buffer the demands identified in P2 (Bakker & Demerouti, 2017) and signal that the institution values long-term staff capacity over short-term efficiency (Ehnert, 2009; Kramar, 2014).
 
+Sustainable HRM is not free of tension here. Formalising AI design work in workload models makes it visible, but it can also make it auditable and standardised, which may reduce the autonomy that made it a resource in the first place. The sustainable HRM literature frames such tensions as paradoxes to be managed rather than resolved (Ehnert, 2009). In practice this suggests recognising the time and responsibility involved in AI design work without prescribing how it is done, and leaving pedagogical decisions about the agents with the academics who answer for them.
+
 > **Proposition 4.** Sustainable HRM practices that make AI design and oversight work visible and resourced weaken the relationship between that work and strain, and strengthen its relationship with engagement and retention of academic staff.
 
 ### 5.5 Asia–Pacific contextual conditions
 
-Three conditions common in parts of the Asia–Pacific, and present in the illustrative case, are likely to shape these processes. First, hierarchical governance and high power distance (Hofstede, 2001) can mean that bottom-up innovations by individual academics are tolerated but not formally adopted, leaving them dependent on personal effort. Second, resource constraints, especially in private and emerging-economy institutions, can push academics towards cheaper models and do-it-yourself solutions, shifting cost and risk onto individuals. Third, performance-driven private and transnational provision rewards visible student-facing outcomes, which can encourage institutions to showcase successful pilots without investing in the work behind them. These conditions do not apply uniformly across the region, which itself varies greatly (Budhwar et al., 2016; Cooke, 2018; De Cieri et al., 2022), but they identify where the risk of individualised, unresourced AI design work is likely to be highest.
+Three conditions common in parts of the Asia–Pacific, and present in the illustrative case, are likely to shape these processes. First, hierarchical governance and high power distance (Hofstede, 2001) can mean that bottom-up innovations by individual academics are tolerated but not formally adopted, leaving them dependent on personal effort. Second, resource constraints, especially in private and emerging-economy institutions, can push academics towards cheaper models and do-it-yourself solutions, shifting cost and risk onto individuals. Third, performance-driven private and transnational provision rewards visible student-facing outcomes, which can encourage institutions to showcase successful pilots without investing in the work behind them. Each condition affects a different step of the framework. Hierarchical governance affects recognition (P2 and P4): innovations that start from below are less likely to be written into workload models or policies. Resource constraints affect the balance of demands and resources (P2 and P3): when academics pay for or work around the limits of cheap models, verification and maintenance demands rise. Performance-driven provision affects the feedback loops (P6 and P7): visible gains in student activity are valuable in a competitive market, which increases both the pressure to scale and the temptation to translate efficiency into lower staffing costs. Labour market conditions add a further layer. Where a substantial share of teaching is done by staff on fixed-term or sessional contracts, as is common in private and transnational provision, the risks described in Proposition 7 fall on those with the least protection.
+
+These conditions do not apply uniformly across the region, which itself varies greatly (Budhwar et al., 2016; Cooke, 2018; De Cieri et al., 2022), but they identify where the risk of individualised, unresourced AI design work is likely to be highest.
 
 > **Proposition 5.** The relationship between AI tutor agent deployment and unrecognised academic workload is stronger in institutions characterised by hierarchical governance, constrained resources and performance-driven provision, contexts that are common in parts of the Asia–Pacific.
 
@@ -163,11 +197,19 @@ For research on AI and employment, the substitution trap qualifies task-based pr
 
 For Asia–Pacific HRM, we specify conditions under which the burden of AI adoption is likely to fall on individuals, adding to calls for research that treats context as an explanatory variable rather than a backdrop (Bartram & Cooke, 2022; Budhwar et al., 2023; Cooke, 2018).
 
-### 6.2 Practical implications
+### 6.2 Boundary conditions and alternative views
+
+Several boundary conditions limit the framework. It applies most directly to agents that academics configure themselves. Where an institution buys a finished system with little scope for local design, design work shrinks but verification and accountability remain, and the autonomy-related resources in Proposition 3 are likely to be weaker. It also applies most directly to courses where feedback is frequent and technical, as in computing; in disciplines where feedback is less frequent or more interpretive, the balance of delegated and new tasks may differ.
+
+An alternative view holds that the additional work is a transitional cost: once academics learn to design agents and the tools mature, the hidden work will shrink and real savings will appear. The framework does not rule this out. It does suggest two reasons for caution. First, the models on which agents run change frequently and outside the institution's control, so stabilisation may be partial. Second, even if savings appear later, staffing decisions taken earlier on the basis of expected savings would already have produced the effects described in Proposition 7. The sequence of decisions matters as much as the eventual balance of work.
+
+A second alternative view is that academics who build AI agents do so voluntarily and enjoy it, so their extra work is not an HRM problem. Voluntary effort is indeed central to Proposition 3. But sustainable HRM is concerned precisely with whether organisations rely on effort they do not recognise or reproduce (Kramar, 2014). Voluntary innovation that becomes an institutional expectation, or the basis for staffing decisions, is no longer purely voluntary.
+
+### 6.3 Practical implications
 
 For HR and academic leaders, the framework suggests six actions. First, make AI design and oversight work visible by including it in workload models and annual planning. Second, provide resources at the point of initiative: time release, institutional licences for models, technical support and peer networks. Third, clarify accountability for agent outputs, so that academics are not personally exposed for errors in systems the institution benefits from. Fourth, recognise the work in performance review and promotion, including as teaching scholarship. Fifth, when scaling successful pilots, scale the resources along with the expectations. Sixth, do not treat AI tutor adoption as evidence that teaching staff can be reduced. Before any change to staffing, class sizes or tutor allocations, assess the design, verification and accountability work the agents require, consult the staff who do it, and give particular attention to sessional and fixed-term staff. Making clear that successful AI innovation will not be used against those who produce it is also a condition for continued innovation.
 
-### 6.3 Research agenda
+### 6.4 Research agenda
 
 The propositions can be tested in several ways. Time-use and diary studies could document how teaching tasks change after AI deployment (P1). Surveys of academic staff could test the relationships between AI design work, recognition, strain and engagement, using validated JD-R and technostress measures (P2–P4). Comparative case studies across institutions and countries in the region could examine contextual conditions (P5). Longitudinal studies following pilots into institutional rollout could test the scaling loop (P6). Institutional case studies and staffing data, combined with staff surveys on job insecurity and innovation behaviour, could test the substitution trap (P7), ideally comparing institutions that did and did not adjust staffing after AI adoption. Multi-level designs linking staff experiences to student outcomes would connect this work to the education literature on AI tutors.
 
