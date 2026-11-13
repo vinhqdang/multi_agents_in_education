@@ -1,16 +1,16 @@
-# Who designs the tutor? Human–AI collaboration, invisible work and sustainable HRM for academic staff in Asia–Pacific higher education
+# Less work or more? AI tutor agents, invisible academic labour and the substitution trap in Asia–Pacific higher education
 
 *Conceptual paper. Submission to the Asia Pacific Journal of Human Resources special issue "Human–AI Collaboration and Sustainable HRM in the Asia–Pacific".*
 
-*Anonymised for double-blind review. Text in [square brackets] is still open for the author to confirm or fill in. Citation status is tracked in `references_status.md`; no reference is final until marked verified there.*
+*Anonymised for double-blind review. Text in [square brackets] is still open for the author to confirm or fill in. Reference verification is recorded in `references_status.md`.*
 
 ---
 
 ## Abstract
 
-Universities across the Asia–Pacific are adopting generative AI agents that tutor students, generate practice tasks and return instant feedback. Research on these tools has focused on students. Much less is known about what happens to the academic staff who design, configure and oversee them. This paper argues that AI tutor agents do not simply automate teaching work; they move it. Feedback production shifts from the academic to the agent, while design, orchestration, verification and accountability work shifts to the academic, often without being recognised in workload models. Drawing on work design theory, the job demands–resources model and sustainable human resource management (HRM), and illustrated by the case of a lecturer who built multi-agent tutors for two undergraduate computing courses at a private international university in Vietnam, we develop a framework and six propositions. They explain when human–AI collaboration in teaching becomes a resource that sustains academics and when it becomes a hidden demand that depletes them, and how institutional HRM and Asia–Pacific contextual conditions (hierarchical governance, resource constraints and performance-driven private provision) shape that outcome. The paper contributes to HRM scholarship by extending the automation–augmentation debate to professional knowledge work in an under-studied sector and region, and offers practical guidance for HR and academic leaders on recognising and resourcing AI design work.
+Universities across the Asia–Pacific are adopting generative AI agents that tutor students, generate practice tasks and return instant feedback. These tools are often expected to reduce academic workload, and some institutions may see them as a reason to employ fewer teaching staff. This paper asks whether AI tutor agents actually lighten the work of academics, and what happens when institutions act on the assumption that they do. We argue that the agents do not remove teaching work but relocate it. Feedback production shifts from the academic to the agent, while design, orchestration, verification and accountability work shifts to the academic, usually without being recognised in workload models. Because the work that disappears is visible and the work that appears is not, institutions can misread AI adoption as freed capacity and cut or casualise teaching positions, removing the people whose hidden work keeps the agents useful and raising job insecurity among those who remain. Drawing on work design theory, the job demands–resources model and sustainable human resource management (HRM), and illustrated by the case of a lecturer who built multi-agent tutors for two undergraduate computing courses at a private international university in Vietnam, we develop a framework and seven propositions. They explain when human–AI collaboration in teaching sustains academics and when it depletes them, how Asia–Pacific conditions (hierarchical governance, resource constraints and performance-driven private provision) increase the risk of a "substitution trap", and what HRM can do to avoid it. The paper extends the automation–augmentation debate to professional knowledge work in an under-studied sector and region and offers guidance for HR and academic leaders on recognising AI design work before making staffing decisions.
 
-**Keywords:** human–AI collaboration; work design; job demands–resources; sustainable HRM; academic work; generative AI; Asia–Pacific; Vietnam
+**Keywords:** human–AI collaboration; work design; job insecurity; job demands–resources; sustainable HRM; academic work; generative AI; Asia–Pacific; Vietnam
 
 ---
 
@@ -20,19 +20,22 @@ Generative AI has entered universities faster than most institutions have been a
 
 Most research on these tools asks whether students learn more (e.g., Bastani et al., 2025; Yan et al., 2025). That question matters, but it leaves out the people who make the tools work. An AI tutor in a university course is not a finished product that arrives from outside. Someone has to decide what it should do, write and test its instructions, check that its outputs are correct, adjust it when it fails, explain it to students and answer for it when something goes wrong. In many institutions that someone is an individual academic acting on their own initiative.
 
-This is an HRM question. How AI changes job design, task allocation, skill requirements and employee wellbeing is at the centre of current HRM debates (Budhwar et al., 2023; Parker & Grote, 2022), and the special issue to which this paper responds asks how AI-enabled work systems can be made sustainable in the Asia–Pacific. Academic staff are a large professional workforce whose work is already marked by intensification and blurred boundaries, and whose employers vary widely across the region in resources, governance and market position. Yet academics as employees rarely appear in HRM research on AI, and the education literature rarely treats AI adoption as a matter of work design.
+This is an HRM question. How AI changes job design, task allocation, skill requirements and employee wellbeing is at the centre of current HRM debates (Bankins et al., 2024; Budhwar et al., 2023; Parker & Grote, 2022), and the special issue to which this paper responds asks how AI-enabled work systems can be made sustainable in the Asia–Pacific. Academic staff are a large professional workforce whose work is already marked by intensification and blurred boundaries, and whose employers vary widely across the region in resources, governance and market position. Yet academics as employees rarely appear in HRM research on AI, and the education literature rarely treats AI adoption as a matter of work design.
 
-We address this gap with a conceptual paper. Our central argument is that AI tutor agents do not automate teaching work so much as **relocate** it. The visible, countable part of the job (producing feedback for each student) moves to the agent. A less visible part (designing, orchestrating, verifying and being accountable for the agent's behaviour) moves to the academic. Whether this relocation sustains or depletes academic staff depends on whether institutions see and resource the new work, and on contextual conditions that are distinctive in parts of the Asia–Pacific.
+The question is also pressing for a second reason. AI tools are widely expected to reduce the labour needed for routine knowledge work (Frey & Osborne, 2017), and universities under financial pressure have an incentive to take that expectation at face value. If an AI tutor answers students' questions and marks their practice exercises, it is tempting to conclude that fewer teaching staff, larger classes or fewer tutors are needed. For academics, this turns a teaching innovation into a possible threat to their own jobs.
 
-We ask three questions:
+We address both issues with a conceptual paper. Our central argument is that AI tutor agents do not automate teaching work so much as **relocate** it. The visible, countable part of the job (producing feedback for each student) moves to the agent. A less visible part (designing, orchestrating, verifying and being accountable for the agent's behaviour) moves to the academic. Because what disappears is easy to see and what appears is not, institutions can misread AI adoption as freed capacity. Acting on that misreading, by cutting or casualising teaching positions, removes the people whose hidden work keeps the agents useful and raises job insecurity among those who remain. We call this the **substitution trap**.
 
-1. How does the deployment of AI tutor agents reconfigure the tasks of academic staff?
+We ask four questions:
+
+1. Does the deployment of AI tutor agents reduce the work of academic staff, or reconfigure it?
 2. Under what conditions do the resulting changes act as job resources rather than job demands?
 3. How do sustainable HRM practices and Asia–Pacific contextual conditions shape these outcomes?
+4. What happens when institutions treat AI tutor agents as a substitute for teaching staff?
 
 We build on three bodies of theory: work design theory, which treats job characteristics as consequences of organisational and technological choices (Parker & Grote, 2022; Hackman & Oldham, 1976); the job demands–resources (JD-R) model, which explains how job characteristics lead to strain or engagement (Bakker & Demerouti, 2007, 2017); and sustainable HRM, which asks whether HR systems regenerate or deplete the human resource base they rely on (Ehnert, 2009; Kramar, 2014). We illustrate the argument with a case from the first author's own practice: the design and deployment of multi-agent tutors in two undergraduate computing courses at a private international university in Vietnam.
 
-The paper makes three contributions. First, it extends the automation–augmentation debate (Raisch & Krakowski, 2021) to professional knowledge work in higher education, showing that augmentation at the level of the service (students receive more feedback) can coincide with intensification at the level of the job. Second, it identifies *AI design and oversight work* as a category of largely invisible work (Star & Strauss, 1999) that HRM systems need to recognise. Third, it specifies Asia–Pacific contextual conditions under which this work is more likely to be individualised and unresourced, responding to calls for context-sensitive HRM research in the region (Budhwar et al., 2023; Cooke, 2018).
+The paper makes four contributions. First, it extends the automation–augmentation debate (Raisch & Krakowski, 2021) to professional knowledge work in higher education, showing that augmentation at the level of the service (students receive more feedback) can coincide with intensification at the level of the job. Second, it identifies *AI design and oversight work* as a category of largely invisible work (Star & Strauss, 1999) that HRM systems need to recognise. Third, it specifies Asia–Pacific contextual conditions under which this work is more likely to be individualised and unresourced, responding to calls for context-sensitive HRM research in the region (Budhwar et al., 2023; Cooke, 2018). Fourth, it explains how staffing decisions based on the visible effects of AI can undermine both the sustainability of academic work and the quality of the AI-supported service itself.
 
 ## 2. AI agents and the changing work of academics
 
@@ -44,7 +47,7 @@ A single deployment may combine several agents with different roles, for example
 
 ### 2.2 The augmentation promise and its limits
 
-The dominant management framing presents AI as either automating tasks (replacing human effort) or augmenting them (extending human capability), with augmentation usually seen as the more desirable path (Raisch & Krakowski, 2021). In teaching, AI tutors are typically justified as augmentation: they give each student more practice and faster feedback than one academic can provide.
+The dominant management framing presents AI as either automating tasks (replacing human effort) or augmenting them (extending human capability), with augmentation usually seen as the more desirable path (Raisch & Krakowski, 2021). Field evidence from other settings supports the augmentation case: in a large customer-support operation, access to a generative AI assistant raised productivity, with the largest gains for less experienced workers (Brynjolfsson et al., 2025). In teaching, AI tutors are typically justified in similar terms: they give each student more practice and faster feedback than one academic can provide.
 
 Raisch and Krakowski (2021) argue that automation and augmentation are interdependent over time: augmentation creates the knowledge that later enables automation, and automation creates new demands for human oversight. Applied to teaching, this suggests that when an academic delegates feedback production to an agent, the job does not shrink; it changes shape. The academic stops writing many individual comments and starts specifying, testing and supervising the system that writes them. Studies of professionals using AI in other fields point the same way: using AI for consequential judgements requires additional effort to interpret, check and take responsibility for its outputs (Lebovitz et al., 2022), and AI that takes over core tasks can unsettle professionals' sense of their role (Strich et al., 2021).
 
@@ -52,7 +55,13 @@ Evidence from students reinforces the importance of design. In a field experimen
 
 ### 2.3 Academic work in the Asia–Pacific
 
-Academic work across the region is shaped by rapid expansion of higher education, internationalisation, rising performance management and a large private and transnational sector [verified sources on Asia–Pacific and Vietnamese higher education to be added]. In many systems, teaching loads are high, contracts are often fixed-term in private institutions, and workload models count contact hours and student numbers more readily than development work. Generative AI is being introduced into this context with high expectations of efficiency and quality (Watermeyer et al., 2024), but with limited attention to who bears the cost of making it work.
+HRM practices and their outcomes differ substantially across the Asia–Pacific, reflecting institutional, cultural and economic conditions (Budhwar et al., 2016; De Cieri et al., 2022). Academic work in the region is no exception. Studies of university academics in Australia and New Zealand report high levels of occupational stress linked to workload and job insecurity (Lee et al., 2022). In Vietnam, where higher education has expanded and internationalised rapidly, research on public universities has pointed to limited HRM capacity to support academic work beyond teaching (Nguyen, 2016). Private and transnational institutions add further pressures, since their market position depends on visible indicators of teaching quality and student experience [the author may add a verified source on Vietnamese private or transnational higher education here]. Across these settings, workload models tend to count contact hours and student numbers more readily than development work. Generative AI is being introduced into this context with high expectations of efficiency and quality (Watermeyer et al., 2024), but with limited attention to who bears the cost of making it work. University teachers differ widely in how they use AI and in their confidence with it, and many report unmet needs for professional development (Mah & Groß, 2024).
+
+### 2.4 AI in HRM research
+
+HRM research on AI has concentrated mainly on AI used by organisations to manage people: in recruitment and selection, workforce analytics and algorithmic management (Meijerink et al., 2021; Prikshat et al., 2023; Vrontis et al., 2022). Reviews have mapped its antecedents, uses and consequences for HR functions (Malik et al., 2023) and for international HRM (Budhwar et al., 2022), and qualitative work in the region has examined how HR professionals experience AI adoption (Sithambaram & Tajudeen, 2023). The arrival of generative AI has turned attention to employees who work alongside AI in their own tasks (Budhwar et al., 2023; Chowdhury et al., 2024). A multilevel review of AI in organisations calls for research on how AI changes the content of jobs and employees' experience of work (Bankins et al., 2024).
+
+Two features of the present case are less well covered. First, the AI is not introduced by HR or management but built by an employee for use with the organisation's clients, here students. Second, the employee is a professional whose work is only partly codified, so the effort required to make AI useful is easily overlooked. Both features are increasingly common as configurable agents spread, and both have direct implications for how HR systems define, allocate and reward work.
 
 ## 3. Theoretical foundations
 
@@ -90,9 +99,9 @@ Three features of the case inform the framework. First, the work of feedback did
 
 ## 5. A framework of human–AI collaboration in academic teaching work
 
-Figure 1 summarises the framework. AI tutor agent deployment reconfigures academic tasks (P1). The reconfiguration creates both new demands (P2) and new resources (P3), whose balance depends on how the deployment is initiated and controlled. Sustainable HRM practices moderate the conversion of demands into strain (P4). Asia–Pacific contextual conditions shape both the HRM response and the distribution of demands (P5). Student-facing outcomes feed back into institutional decisions about scaling, which can intensify demands (P6).
+Figure 1 summarises the framework. AI tutor agent deployment reconfigures academic tasks (P1). The reconfiguration creates both new demands (P2) and new resources (P3), whose balance depends on how the deployment is initiated and controlled. Sustainable HRM practices moderate the conversion of demands into strain (P4). Asia–Pacific contextual conditions shape both the HRM response and the distribution of demands (P5). Student-facing outcomes feed back into institutional decisions about scaling, which can intensify demands (P6), and into staffing decisions that treat the agents as a substitute for staff (P7).
 
-*Figure 1 [to be drawn]: AI tutor deployment → task reconfiguration (P1) → job demands (P2) and job resources (P3) → strain or engagement and sustained capacity; moderators: sustainable HRM practices (P4) and Asia–Pacific context (P5); feedback loop from student-facing outcomes to institutional scaling (P6).*
+*Figure 1 [to be drawn]: AI tutor deployment → task reconfiguration (P1) → job demands (P2) and job resources (P3) → strain or engagement and sustained capacity; moderators: sustainable HRM practices (P4) and Asia–Pacific context (P5); feedback loops from student-facing outcomes to institutional scaling (P6) and to substitution-based staffing decisions (P7).*
 
 ### 5.1 Task reconfiguration
 
@@ -114,13 +123,13 @@ The same reconfiguration can also add resources. Academics who design agents gai
 
 ### 5.4 Sustainable HRM as a moderator
 
-Sustainable HRM practices can determine whether AI design work regenerates or depletes academic capacity. Relevant practices include counting design and oversight work in workload models; providing time and funding for development and model access; offering training and peer support; setting governance rules that clarify responsibility for agent outputs; and recognising the work in promotion and performance review. These practices act as organisational resources that buffer the demands identified in P2 (Bakker & Demerouti, 2017) and signal that the institution values long-term staff capacity over short-term efficiency (Ehnert, 2009; Kramar, 2014).
+Sustainable HRM practices can determine whether AI design work regenerates or depletes academic capacity. Relevant practices include counting design and oversight work in workload models; providing time and funding for development and model access; offering training and peer support, which many university teachers say they lack (Mah & Groß, 2024); setting governance rules that clarify responsibility for agent outputs; and recognising the work in promotion and performance review. These practices act as organisational resources that buffer the demands identified in P2 (Bakker & Demerouti, 2017) and signal that the institution values long-term staff capacity over short-term efficiency (Ehnert, 2009; Kramar, 2014).
 
 > **Proposition 4.** Sustainable HRM practices that make AI design and oversight work visible and resourced weaken the relationship between that work and strain, and strengthen its relationship with engagement and retention of academic staff.
 
 ### 5.5 Asia–Pacific contextual conditions
 
-Three conditions common in parts of the Asia–Pacific, and present in the illustrative case, are likely to shape these processes. First, hierarchical governance and high power distance (Hofstede, 2001) can mean that bottom-up innovations by individual academics are tolerated but not formally adopted, leaving them dependent on personal effort. Second, resource constraints, especially in private and emerging-economy institutions, can push academics towards cheaper models and do-it-yourself solutions, shifting cost and risk onto individuals. Third, performance-driven private and transnational provision rewards visible student-facing outcomes, which can encourage institutions to showcase successful pilots without investing in the work behind them. These conditions do not apply uniformly across the region, which itself varies greatly (Cooke, 2018), but they identify where the risk of individualised, unresourced AI design work is likely to be highest.
+Three conditions common in parts of the Asia–Pacific, and present in the illustrative case, are likely to shape these processes. First, hierarchical governance and high power distance (Hofstede, 2001) can mean that bottom-up innovations by individual academics are tolerated but not formally adopted, leaving them dependent on personal effort. Second, resource constraints, especially in private and emerging-economy institutions, can push academics towards cheaper models and do-it-yourself solutions, shifting cost and risk onto individuals. Third, performance-driven private and transnational provision rewards visible student-facing outcomes, which can encourage institutions to showcase successful pilots without investing in the work behind them. These conditions do not apply uniformly across the region, which itself varies greatly (Budhwar et al., 2016; Cooke, 2018; De Cieri et al., 2022), but they identify where the risk of individualised, unresourced AI design work is likely to be highest.
 
 > **Proposition 5.** The relationship between AI tutor agent deployment and unrecognised academic workload is stronger in institutions characterised by hierarchical governance, constrained resources and performance-driven provision, contexts that are common in parts of the Asia–Pacific.
 
@@ -129,6 +138,16 @@ Three conditions common in parts of the Asia–Pacific, and present in the illus
 Successful pilots generate visible signals, such as higher student activity, that institutions can use to justify wider rollout. If scaling takes the form of an expectation that other academics adopt similar tools, or that the original designer support more courses, without the corresponding resources, a resource that was crafted voluntarily becomes a mandated demand. This is the point at which augmentation at the level of the service turns into intensification at the level of the job.
 
 > **Proposition 6.** Visible student-facing gains from AI tutor agents increase institutional pressure to scale their use; when scaling is not accompanied by the HRM practices in Proposition 4, it converts AI design work from a crafted resource into an imposed demand.
+
+### 5.7 The substitution trap
+
+The final step concerns staffing. Institutions observe the visible part of the change: students receive feedback without an academic writing it, and fewer student queries reach staff. They do not observe the design, verification and accountability work that P1 and P2 describe. From the institution's point of view, AI adoption therefore looks like freed capacity. Under financial pressure, this invites substitution: larger classes per academic, fewer sessional tutors or teaching assistants, non-renewal of fixed-term contracts, or the expectation that one designer now supports many courses.
+
+Substitution based on this misreading has three consequences. First, it intensifies the work of those who remain, because the hidden work does not shrink when staff numbers do; it grows with the number of students and courses the agents serve. Second, it tends to fall first on the most precarious staff, such as sessional tutors and staff on fixed-term contracts, whose work is most easily described as routine feedback. Third, it raises job insecurity among academics more broadly. Job insecurity is associated with lower wellbeing and with withdrawal of discretionary effort (Shoss, 2017). In this setting, it creates a perverse incentive: academics who can build effective AI tutors may hesitate to do so, or to share what they have built, if visible success is likely to be used to justify cutting teaching positions. The institution then loses the bottom-up innovation it benefited from in the first place.
+
+Substitution also carries a quality risk. The agents' value for students depends on design choices and continued oversight (Bastani et al., 2025; Yan et al., 2025). If the people who make those choices are removed or overloaded, the service the institution relied on to justify the cuts is likely to deteriorate.
+
+> **Proposition 7.** When institutions interpret AI tutor agents as a substitute for teaching staff and reduce or casualise teaching positions on that basis, (a) the workload and strain of remaining academic staff increase, (b) job insecurity increases, especially among precarious staff, and (c) academics' willingness to develop and share AI innovations decreases. These effects are weaker when staffing decisions are preceded by an assessment of the design and oversight work the agents require.
 
 ## 6. Discussion
 
@@ -140,15 +159,17 @@ For work design theory, we add AI design and oversight as a distinct cluster of 
 
 For sustainable HRM, we identify invisibility as a mechanism through which AI adoption can deplete human resources. Sustainable HRM has emphasised long-term effects on health and skills (Ehnert, 2009; Kramar, 2014); our analysis suggests that whether new work is seen and counted is a precondition for any sustainable response.
 
-For Asia–Pacific HRM, we specify conditions under which the burden of AI adoption is likely to fall on individuals, adding to calls for research that treats context as an explanatory variable rather than a backdrop (Cooke, 2018; Budhwar et al., 2023).
+For research on AI and employment, the substitution trap qualifies task-based predictions of labour displacement (Frey & Osborne, 2017). In professional work, the tasks AI performs are not simply removed from human jobs; they are partly replaced by new tasks of design and oversight that are harder to see. Staffing decisions that count only the removed tasks are likely to overestimate the labour saved.
+
+For Asia–Pacific HRM, we specify conditions under which the burden of AI adoption is likely to fall on individuals, adding to calls for research that treats context as an explanatory variable rather than a backdrop (Bartram & Cooke, 2022; Budhwar et al., 2023; Cooke, 2018).
 
 ### 6.2 Practical implications
 
-For HR and academic leaders, the framework suggests five actions. First, make AI design and oversight work visible by including it in workload models and annual planning. Second, provide resources at the point of initiative: time release, institutional licences for models, technical support and peer networks. Third, clarify accountability for agent outputs, so that academics are not personally exposed for errors in systems the institution benefits from. Fourth, recognise the work in performance review and promotion, including as teaching scholarship. Fifth, when scaling successful pilots, scale the resources along with the expectations.
+For HR and academic leaders, the framework suggests six actions. First, make AI design and oversight work visible by including it in workload models and annual planning. Second, provide resources at the point of initiative: time release, institutional licences for models, technical support and peer networks. Third, clarify accountability for agent outputs, so that academics are not personally exposed for errors in systems the institution benefits from. Fourth, recognise the work in performance review and promotion, including as teaching scholarship. Fifth, when scaling successful pilots, scale the resources along with the expectations. Sixth, do not treat AI tutor adoption as evidence that teaching staff can be reduced. Before any change to staffing, class sizes or tutor allocations, assess the design, verification and accountability work the agents require, consult the staff who do it, and give particular attention to sessional and fixed-term staff. Making clear that successful AI innovation will not be used against those who produce it is also a condition for continued innovation.
 
 ### 6.3 Research agenda
 
-The propositions can be tested in several ways. Time-use and diary studies could document how teaching tasks change after AI deployment (P1). Surveys of academic staff could test the relationships between AI design work, recognition, strain and engagement, using validated JD-R and technostress measures (P2–P4). Comparative case studies across institutions and countries in the region could examine contextual conditions (P5). Longitudinal studies following pilots into institutional rollout could test the scaling loop (P6). Multi-level designs linking staff experiences to student outcomes would connect this work to the education literature on AI tutors.
+The propositions can be tested in several ways. Time-use and diary studies could document how teaching tasks change after AI deployment (P1). Surveys of academic staff could test the relationships between AI design work, recognition, strain and engagement, using validated JD-R and technostress measures (P2–P4). Comparative case studies across institutions and countries in the region could examine contextual conditions (P5). Longitudinal studies following pilots into institutional rollout could test the scaling loop (P6). Institutional case studies and staffing data, combined with staff surveys on job insecurity and innovation behaviour, could test the substitution trap (P7), ideally comparing institutions that did and did not adjust staffing after AI adoption. Multi-level designs linking staff experiences to student outcomes would connect this work to the education literature on AI tutors.
 
 ## 7. Limitations and positionality
 
@@ -156,7 +177,7 @@ This is a conceptual paper; the propositions are theoretical and require empiric
 
 ## 8. Conclusion
 
-AI tutor agents are often presented as a way to give students more support without more staff time. This paper argues that the staff time does not disappear; it moves into design, verification and accountability work that institutions rarely see. Whether that work sustains or depletes academics depends on whether HRM systems recognise and resource it, and on contextual conditions that make individualised, unresourced innovation more likely in parts of the Asia–Pacific. Treating academic AI design work as work is a first step towards a sustainable human–AI collaboration in higher education.
+AI tutor agents are often presented as a way to give students more support without more staff time. Our answer to the question in the title is that they do not, by themselves, mean less work for academics: the staff time does not disappear but moves into design, verification and accountability work that institutions rarely see. The danger is that institutions treat the visible savings as real and the hidden work as non-existent, and cut teaching positions accordingly. That would increase the burden on those who remain, fall hardest on precarious staff, discourage the innovation that made the tools useful, and ultimately weaken the service it was meant to protect. Whether that work sustains or depletes academics depends on whether HRM systems recognise and resource it, and on contextual conditions that make individualised, unresourced innovation more likely in parts of the Asia–Pacific. Treating academic AI design work as work is a first step towards a sustainable human–AI collaboration in higher education.
 
 ---
 
@@ -178,4 +199,88 @@ AI tutor agents are often presented as a way to give students more support witho
 
 ## References
 
-Only references marked as verified in `references_status.md` will be retained. The list will be finalised in APA 7 once verification is complete.
+Bakker, A. B., & Demerouti, E. (2007). The Job Demands-Resources model: State of the art. *Journal of Managerial Psychology, 22*(3), 309–328. https://doi.org/10.1108/02683940710733115
+
+Bakker, A. B., & Demerouti, E. (2017). Job demands–resources theory: Taking stock and looking forward. *Journal of Occupational Health Psychology, 22*(3), 273–285. https://doi.org/10.1037/ocp0000056
+
+Bankins, S., Ocampo, A. C., Marrone, M., Restubog, S. L. D., & Woo, S. E. (2024). A multilevel review of artificial intelligence in organizations: Implications for organizational behavior research and practice. *Journal of Organizational Behavior, 45*(2), 159–182. https://doi.org/10.1002/job.2735
+
+Bartram, T., & Cooke, F. L. (2022). Celebrating the 60th anniversary of the *Asia Pacific Journal of Human Resources*: What has been achieved and what more can be done. *Asia Pacific Journal of Human Resources, 60*(1), 3–21. https://doi.org/10.1111/1744-7941.12320
+
+Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *Proceedings of the National Academy of Sciences, 122*(26), Article e2422633122. https://doi.org/10.1073/pnas.2422633122
+
+Brynjolfsson, E., Li, D., & Raymond, L. (2025). Generative AI at work. *The Quarterly Journal of Economics, 140*(2), 889–942. https://doi.org/10.1093/qje/qjae044
+
+Budhwar, P., Chowdhury, S., Wood, G., Aguinis, H., Bamber, G. J., Beltran, J. R., Boselie, P., Lee Cooke, F., Decker, S., DeNisi, A., Dey, P. K., Guest, D., Knoblich, A. J., Malik, A., Paauwe, J., Papagiannidis, S., Patel, C., Pereira, V., Ren, S., . . . Varma, A. (2023). Human resource management in the age of generative artificial intelligence: Perspectives and research directions on ChatGPT. *Human Resource Management Journal, 33*(3), 606–659. https://doi.org/10.1111/1748-8583.12524
+
+Budhwar, P., Malik, A., De Silva, M. T. T., & Thevisuthan, P. (2022). Artificial intelligence – challenges and opportunities for international HRM: A review and research agenda. *The International Journal of Human Resource Management, 33*(6), 1065–1097. https://doi.org/10.1080/09585192.2022.2035161
+
+Budhwar, P. S., Varma, A., & Patel, C. (2016). Convergence-divergence of HRM in the Asia-Pacific: Context-specific analysis and future research agenda. *Human Resource Management Review, 26*(4), 311–326. https://doi.org/10.1016/j.hrmr.2016.04.004
+
+Chowdhury, S., Budhwar, P., & Wood, G. (2024). Generative artificial intelligence in business: Towards a strategic human resource management framework. *British Journal of Management, 35*(4), 1680–1691. https://doi.org/10.1111/1467-8551.12824
+
+Cooke, F. L. (2018). Concepts, contexts, and mindsets: Putting human resource management research in perspectives. *Human Resource Management Journal, 28*(1), 1–13. https://doi.org/10.1111/1748-8583.12163
+
+De Cieri, H., Sanders, K., & Lin, C. (V.) (2022). International and comparative human resource management: An Asia-Pacific perspective. *Asia Pacific Journal of Human Resources, 60*(1), 116–145. https://doi.org/10.1111/1744-7941.12309
+
+Demerouti, E., Bakker, A. B., Nachreiner, F., & Schaufeli, W. B. (2001). The job demands-resources model of burnout. *Journal of Applied Psychology, 86*(3), 499–512. https://doi.org/10.1037/0021-9010.86.3.499
+
+Ehnert, I. (2009). *Sustainable human resource management: A conceptual and exploratory analysis from a paradox perspective*. Physica-Verlag. https://doi.org/10.1007/978-3-7908-2188-8
+
+Frey, C. B., & Osborne, M. A. (2017). The future of employment: How susceptible are jobs to computerisation? *Technological Forecasting and Social Change, 114*, 254–280. https://doi.org/10.1016/j.techfore.2016.08.019
+
+Hackman, J. R., & Oldham, G. R. (1976). Motivation through the design of work: Test of a theory. *Organizational Behavior and Human Performance, 16*(2), 250–279. https://doi.org/10.1016/0030-5073(76)90016-7
+
+Hofstede, G. (2001). *Culture's consequences: Comparing values, behaviors, institutions, and organizations across nations* (2nd ed.). Sage.
+
+Jaakkola, E. (2020). Designing conceptual articles: Four approaches. *AMS Review, 10*(1–2), 18–26. https://doi.org/10.1007/s13162-020-00161-0
+
+Kellogg, K. C., Valentine, M. A., & Christin, A. (2020). Algorithms at work: The new contested terrain of control. *Academy of Management Annals, 14*(1), 366–410. https://doi.org/10.5465/annals.2018.0174
+
+Kramar, R. (2014). Beyond strategic human resource management: Is sustainable human resource management the next approach? *The International Journal of Human Resource Management, 25*(8), 1069–1089. https://doi.org/10.1080/09585192.2013.816863
+
+Lebovitz, S., Lifshitz-Assaf, H., & Levina, N. (2022). To engage or not to engage with AI for critical judgments: How professionals deal with opacity when using AI for medical diagnosis. *Organization Science, 33*(1), 126–148. https://doi.org/10.1287/orsc.2021.1549
+
+Lee, M., Coutts, R., Fielden, J., Hutchinson, M., Lakeman, R., Mathisen, B., Nasrawi, D., & Phillips, N. (2022). Occupational stress in university academics in Australia and New Zealand. *Journal of Higher Education Policy and Management, 44*(1), 57–71. https://doi.org/10.1080/1360080X.2021.1934246
+
+Mah, D.-K., & Groß, N. (2024). Artificial intelligence in higher education: Exploring faculty use, self-efficacy, distinct profiles, and professional development needs. *International Journal of Educational Technology in Higher Education, 21*, Article 58. https://doi.org/10.1186/s41239-024-00490-1
+
+Malik, A., Budhwar, P., & Kazmi, B. A. (2023). Artificial intelligence (AI)-assisted HRM: Towards an extended strategic framework. *Human Resource Management Review, 33*(1), Article 100940. https://doi.org/10.1016/j.hrmr.2022.100940
+
+Meijerink, J., Boons, M., Keegan, A., & Marler, J. (2021). Algorithmic human resource management: Synthesizing developments and cross-disciplinary insights on digital HRM. *The International Journal of Human Resource Management, 32*(12), 2545–2562. https://doi.org/10.1080/09585192.2021.1925326
+
+Morgeson, F. P., & Humphrey, S. E. (2006). The Work Design Questionnaire (WDQ): Developing and validating a comprehensive measure for assessing job design and the nature of work. *Journal of Applied Psychology, 91*(6), 1321–1339. https://doi.org/10.1037/0021-9010.91.6.1321
+
+Nguyen, T. L. H. (2016). Building human resources management capacity for university research: The case at four leading Vietnamese universities. *Higher Education, 71*(2), 231–251. https://doi.org/10.1007/s10734-015-9898-2
+
+Parker, S. K., & Grote, G. (2022). Automation, algorithms, and beyond: Why work design matters more than ever in a digital world. *Applied Psychology, 71*(4), 1171–1204. https://doi.org/10.1111/apps.12241
+
+Prikshat, V., Malik, A., & Budhwar, P. (2023). AI-augmented HRM: Antecedents, assimilation and multilevel consequences. *Human Resource Management Review, 33*(1), Article 100860. https://doi.org/10.1016/j.hrmr.2021.100860
+
+Raisch, S., & Krakowski, S. (2021). Artificial intelligence and management: The automation–augmentation paradox. *Academy of Management Review, 46*(1), 192–210. https://doi.org/10.5465/amr.2018.0072
+
+Shoss, M. K. (2017). Job insecurity: An integrative review and agenda for future research. *Journal of Management, 43*(6), 1911–1939. https://doi.org/10.1177/0149206317691574
+
+Sithambaram, R. A., & Tajudeen, F. P. (2023). Impact of artificial intelligence in human resource management: A qualitative study in the Malaysian context. *Asia Pacific Journal of Human Resources, 61*(4), 821–844. https://doi.org/10.1111/1744-7941.12356
+
+Star, S. L., & Strauss, A. (1999). Layers of silence, arenas of voice: The ecology of visible and invisible work. *Computer Supported Cooperative Work, 8*(1–2), 9–30. https://doi.org/10.1023/A:1008651105359
+
+Strich, F., Mayer, A.-S., & Fiedler, M. (2021). What do I do in a world of artificial intelligence? Investigating the impact of substitutive decision-making AI systems on employees' professional role identity. *Journal of the Association for Information Systems, 22*(2), 304–324. https://doi.org/10.17705/1jais.00663
+
+Tarafdar, M., Cooper, C. L., & Stich, J.-F. (2019). The technostress trifecta – techno eustress, techno distress and design: Theoretical directions and an agenda for research. *Information Systems Journal, 29*(1), 6–42. https://doi.org/10.1111/isj.12169
+
+Tarafdar, M., Tu, Q., Ragu-Nathan, B. S., & Ragu-Nathan, T. S. (2007). The impact of technostress on role stress and productivity. *Journal of Management Information Systems, 24*(1), 301–328. https://doi.org/10.2753/MIS0742-1222240109
+
+Tims, M., Bakker, A. B., & Derks, D. (2012). Development and validation of the job crafting scale. *Journal of Vocational Behavior, 80*(1), 173–186. https://doi.org/10.1016/j.jvb.2011.05.009
+
+Trist, E. L., & Bamforth, K. W. (1951). Some social and psychological consequences of the longwall method of coal-getting. *Human Relations, 4*(1), 3–38. https://doi.org/10.1177/001872675100400101
+
+Vrontis, D., Christofi, M., Pereira, V., Tarba, S., Makrides, A., & Trichina, E. (2022). Artificial intelligence, robotics, advanced technologies and human resource management: A systematic review. *The International Journal of Human Resource Management, 33*(6), 1237–1266. https://doi.org/10.1080/09585192.2020.1871398
+
+Watermeyer, R., Phipps, L., Lanclos, D., & Knight, C. (2024). Generative AI and the automating of academia. *Postdigital Science and Education, 6*(2), 446–466. https://doi.org/10.1007/s42438-023-00440-6
+
+Whetten, D. A. (1989). What constitutes a theoretical contribution? *Academy of Management Review, 14*(4), 490–495. https://doi.org/10.5465/amr.1989.4308371
+
+Wrzesniewski, A., & Dutton, J. E. (2001). Crafting a job: Revisioning employees as active crafters of their work. *Academy of Management Review, 26*(2), 179–201. https://doi.org/10.5465/amr.2001.4378011
+
+Yan, L., Greiff, S., Lodge, J. M., & Gašević, D. (2025). Distinguishing performance gains from learning when using generative AI. *Nature Reviews Psychology, 4*(7), 435–436. https://doi.org/10.1038/s44159-025-00467-5
