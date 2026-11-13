@@ -1,4 +1,4 @@
-# Less work or more? Human–AI collaboration, invisible work and the substitution trap: A sustainable HRM framework for the Asia–Pacific
+# Less work or more? Artificial intelligence, invisible work and the substitution trap
 
 *Conceptual paper. Submission to the Asia Pacific Journal of Human Resources special issue "Human–AI Collaboration and Sustainable HRM in the Asia–Pacific". Anonymised for double-blind review.*
 
@@ -6,321 +6,173 @@
 
 ## Abstract
 
-Generative AI agents are introduced into organisations on the promise that they will reduce employees' work, and managers under cost pressure may treat them as a reason to employ fewer people. This paper asks whether AI agents actually reduce the work of the employees who use them, and what happens when organisations assume they do. We argue that AI agents relocate rather than remove work: routine production moves to the agent, while configuring, verifying and answering for its output moves to the employee. Because the work that disappears is visible and the work that appears is not, organisations can misread AI adoption as freed capacity and cut or casualise staff. We call this the substitution trap. Integrating work design theory, the job demands–resources model, invisible work and sustainable human resource management (HRM), we develop seven propositions on when human–AI collaboration becomes a job resource or a hidden demand, how sustainable HRM moderates these outcomes, and how Asia–Pacific conditions raise the risk of the trap. The paper offers HR leaders a basis for assessing AI-related work before restructuring.
+Generative artificial intelligence agents are introduced on the promise that they will reduce employees' work, and cost-pressed managers may treat them as a reason to employ fewer people. This paper asks whether these agents reduce the work of the people who use them, and what happens when organisations assume they do. We argue that the agents relocate work: routine production moves to the agent, while configuring, checking and answering for its output moves to employees, where it is rarely measured. When staffing decisions rely on measures that capture only the visible savings, organisations cut the capacity that sustains performance, and the resulting problems are blamed on employees, prompting further cuts. We call this self-reinforcing cycle the substitution trap. Drawing on work design, job demands and resources, invisible work and sustainable human resource management, we develop propositions on how this cycle unfolds and how it differs across Asia–Pacific employment systems.
 
-**Keywords:** human–AI collaboration; work design; invisible work; job demands–resources; job insecurity; sustainable HRM; generative AI; Asia–Pacific
+**Keywords:** artificial intelligence; invisible work; job insecurity; sustainable human resource management; work design
 
 ---
 
 ## 1. Introduction
 
-Generative AI has moved from experiment to everyday use in many organisations in a short time. Beyond general-purpose chatbots, organisations now deploy AI agents: systems that act on a user's or organisation's behalf, drafting responses to customers, producing reports, screening documents, writing code or giving feedback, often with limited human intervention for each output. The case for adopting them is usually framed in terms of time saved. If an agent drafts what an employee used to draft, the employee should have less to do.
+Generative artificial intelligence (AI) has moved quickly from experiment to everyday use in organisations. Beyond general-purpose chatbots, organisations now deploy AI agents: systems that act on a user's or organisation's behalf, drafting responses to customers, producing reports, screening documents or writing code with limited human intervention for each output. The case for adopting them is usually framed in terms of time saved. If an agent drafts what an employee used to draft, the employee should have less to do.
 
-This expectation has consequences for HRM. If AI saves employee time, the saving can be spent in two ways: on other, higher-value work, or on reducing labour costs through fewer positions, larger workloads per person or a shift to cheaper and less secure forms of employment. Estimates that a large share of occupations are at high risk of computerisation (Frey & Osborne, 2017) lend weight to the second option, and early field evidence of productivity gains from generative AI (Brynjolfsson et al., 2025) can be read as confirming it. For employees, the same technology that is presented as relieving their workload can become a signal that their jobs are at risk.
+This expectation has consequences for human resource management (HRM). Saved time can be redeployed to other work, or converted into lower labour costs through fewer positions, larger workloads per person or less secure forms of employment. Experimental and field studies report substantial time savings and productivity gains from generative AI on well-defined tasks (Brynjolfsson et al., 2025; Noy & Zhang, 2023), and such evidence is easily read as a case for the second option. For employees, a technology presented as relieving their workload can therefore become a signal that their jobs are at risk (Brougham & Haar, 2018).
 
-HRM research has begun to engage with these questions. A growing literature examines AI in HR functions such as recruitment, analytics and algorithmic management (Meijerink et al., 2021; Prikshat et al., 2023; Vrontis et al., 2022), and recent work considers how generative AI changes employees' jobs and HRM's strategic role (Budhwar et al., 2023; Chowdhury et al., 2024). Reviews call for research on how AI changes the content of work and employees' experience of it (Bankins et al., 2024). Yet one basic question remains under-theorised: when an employee works with an AI agent, does the employee's work actually decrease? And if the answer is less straightforward than it seems, what follows for staffing decisions that assume it does?
+That technology creates new work for the humans who operate it is not a new observation. Automation has long been known to shift people from doing tasks to monitoring and recovering from automated systems (Bainbridge, 1983), and economists have shown that automation displaces some tasks while creating others (Acemoglu & Restrepo, 2019). Research on computing and AI has documented the hidden human labour on which apparently automated systems depend (Ekbia & Nardi, 2017; Gray & Suri, 2019), and organisational studies have traced the informal learning and brokering work that grows up around intelligent technologies (Beane, 2019; Waardenburg et al., 2022). What this literature has not addressed is how such work enters, or fails to enter, the HRM decisions that organisations make on the basis of expected AI savings, especially staffing decisions.
 
-We address these questions with a conceptual paper. Our central argument is that AI agents do not automate work so much as **relocate** it. The visible, countable part of a job, the production of drafts, responses and routine outputs, moves to the agent. A less visible part, specifying what the agent should do, checking its outputs, coordinating it with other tools and people, handling its failures and answering for its results, moves to the employee. Because what disappears is easy to see and what appears is not, organisations can misread AI adoption as freed capacity. Acting on that misreading by reducing or casualising staffing removes the people whose hidden work keeps the agents useful and raises insecurity among those who remain. We call this the **substitution trap**.
+This paper addresses that gap. We argue that generative AI agents relocate work. The visible, countable part of a job, the production of drafts and routine outputs, moves to the agent. A less visible part, specifying what the agent should do, checking its outputs, handling its failures and answering for its results, moves to employees. Because organisations typically measure the first and not the second, they can treat AI adoption as freed capacity and reduce or casualise staffing. Such decisions remove the capacity that sustains AI-supported performance. Because the resulting decline is delayed and is easily attributed to employees rather than to the staffing decision, it tends to prompt further intensification or cuts. We call this self-reinforcing cycle the **substitution trap**.
 
-We ask four questions:
+We ask three questions. Under what conditions does working with AI agents reduce employees' work, and when does it mainly reconfigure it? How does the measurement of AI-related work shape staffing decisions, and why can those decisions become self-reinforcing? How do these processes differ across the employment systems of the Asia–Pacific?
 
-1. Does working with AI agents reduce employees' work, or reconfigure it?
-2. Under what conditions do the resulting changes act as job resources rather than job demands?
-3. How do sustainable HRM practices and Asia–Pacific contextual conditions shape these outcomes?
-4. What happens when organisations treat AI agents as a substitute for employees?
+The Asia–Pacific is an important setting for these questions because its employment systems differ sharply in how labour is adjusted, how much voice employees have and where routine work is located. These differences, we argue, change the form the trap takes and who bears its costs. Treating context in this way responds to calls to make it part of the explanation in Asia–Pacific HRM research rather than a backdrop (Bartram & Cooke, 2022; Cooke, 2018).
 
-The Asia–Pacific offers a particularly important setting for these questions. The region combines highly digitalised economies with emerging ones, formal employment with large informal and precarious workforces, and HRM systems shaped by distinct institutional and cultural conditions (Budhwar et al., 2016; De Cieri et al., 2022). Research on AI and HRM has nonetheless been dominated by Western contexts, and the special issue to which this paper responds calls for theory that treats context as part of the explanation.
-
-We build on four bodies of theory: work design theory, which treats job characteristics as the result of organisational and technological choices (Hackman & Oldham, 1976; Parker & Grote, 2022); the job demands–resources (JD-R) model, which explains how job characteristics lead to strain or engagement (Bakker & Demerouti, 2007, 2017); the concept of invisible work, which explains why some necessary work is not seen or rewarded (Star & Strauss, 1999); and sustainable HRM, which asks whether HR systems regenerate or deplete the human resources they depend on (Ehnert, 2009; Kramar, 2014).
-
-Methodologically, the paper follows a model-building approach to conceptual research, in which established theories are combined to explain relationships among constructs and to derive testable propositions (Jaakkola, 2020). Consistent with criteria for theoretical contributions, we specify what the framework explains, how its constructs are related, why these relationships hold, and the conditions under which they apply (Whetten, 1989).
-
-The paper makes four contributions. First, it extends the automation–augmentation debate (Raisch & Krakowski, 2021) from the level of tasks to the level of jobs, showing that augmentation of an output can coincide with intensification of the job that produces it. Second, it identifies AI configuration and oversight as a category of invisible work that HRM systems need to recognise. Third, it specifies Asia–Pacific conditions under which this work is more likely to be individualised and unresourced. Fourth, it explains how staffing decisions based on the visible effects of AI can undermine both employee wellbeing and the quality of AI-supported work, and identifies what sustainable HRM can do to prevent this.
+The paper follows a model-building approach to conceptual research, combining established theories to explain relationships among constructs and derive propositions (Jaakkola, 2020; Whetten, 1989). It draws on work design theory (Parker & Grote, 2022), the job demands–resources (JD-R) model (Bakker & Demerouti, 2017), the concept of invisible work (Hatton, 2017; Star & Strauss, 1999) and sustainable HRM (Ehnert, 2009; Kramar, 2014). It makes three contributions. First, it specifies when AI agents reduce net work and when they mainly relocate it, turning a familiar observation into conditional, testable claims. Second, it explains how the invisibility of AI-related work leads to staffing decisions that undermine both employees and performance, and why this pattern can be self-reinforcing. Third, it derives contrasting propositions for distinct Asia–Pacific employment systems.
 
 ## 2. Background
 
-### 2.1 From AI tools to AI agents at work
+### 2.1 AI agents at work
 
-Earlier workplace technologies, such as enterprise software or rule-based automation, were tools that employees operated. Generative AI agents differ in ways that matter for work design. They act with a degree of autonomy, deciding within limits set by their configuration what to produce and how. Their behaviour is shaped by natural-language instructions, examples and settings rather than conventional programming, which makes them accessible to employees without technical training. And several agents can be combined, each with a defined role, to handle a sequence of tasks.
+Generative AI agents differ from earlier workplace technologies in three ways that matter for work design. They are **configurable**: their behaviour is shaped by natural-language instructions and settings written by users rather than by vendors, which places design responsibility close to employees. They are **fallible**: they produce fluent output that can be wrong, so their use requires continuing verification rather than a one-off check. And they operate at **scale**: an agent can produce output for many clients or cases at once, so both its benefits and its errors multiply. Configurability creates design work, fallibility creates verification work, and scale magnifies the consequences of both.
 
-Three properties of AI agents are central to the argument that follows. The first is **configurability**: their behaviour is not fixed by a vendor but shaped by whoever writes their instructions, which often places design responsibility close to the individual employee or team. The second is **fallibility**: generative models produce fluent output that can be wrong, so their use requires continuing verification rather than a one-off check. The third is **scale**: once deployed, an agent can produce output for many clients, cases or colleagues at once, so both its benefits and its errors multiply. Configurability creates design work, fallibility creates verification work, and scale magnifies the consequences of both. None of these properties is captured by the common image of AI as a tool that simply saves time.
+The evidence on how much work these tools save is uneven. Large time savings have been found for writing tasks whose quality is easy to judge (Noy & Zhang, 2023) and for customer-support work, especially among less experienced workers (Brynjolfsson et al., 2025). A field experiment with consultants found that AI improved performance on tasks within its capabilities but reduced it on tasks outside them (Dell'Acqua et al., 2023). Studies of professionals show that using AI for consequential judgements requires extra effort to interpret and check its outputs (Lebovitz et al., 2022), and that AI which takes over core decisions can unsettle professional identity (Strich et al., 2021). Large-scale labour market data suggest that the time savings of generative AI chatbots are modest on average and partly offset by new tasks (Humlum & Vestergaard, 2025). Read together, these findings suggest that net savings depend on how easily outputs can be checked and how stable the tasks are, which is the starting point of our first proposition.
 
 ### 2.2 AI in HRM research
 
-HRM research on AI has concentrated mainly on AI used by organisations to manage people: in recruitment and selection, workforce analytics and algorithmic management (Meijerink et al., 2021; Prikshat et al., 2023; Vrontis et al., 2022). Reviews have mapped its antecedents, uses and consequences for HR functions (Malik et al., 2023) and for international HRM (Budhwar et al., 2022), and qualitative research in the region has examined how organisations experience AI adoption in HRM (Sithambaram & Tajudeen, 2023). Research on algorithmic management shows that AI can become a means of control over workers as much as a support for them (Kellogg et al., 2020).
-
-The arrival of generative AI has turned attention to employees who work alongside AI in their own tasks (Budhwar et al., 2023; Chowdhury et al., 2024). Here the evidence is mixed. In a large customer-support operation, access to a generative AI assistant raised productivity, with the largest gains for less experienced workers (Brynjolfsson et al., 2025). In professional settings, by contrast, using AI for consequential judgements required additional effort to interpret and check its outputs (Lebovitz et al., 2022), and AI that took over core decisions unsettled employees' professional role identity (Strich et al., 2021). Evidence from education shows that the design of an AI system, such as whether it gives answers or guides the user to them, can determine whether it helps or harms the people it serves (Bastani et al., 2025). Survey research with academics similarly suggests that generative AI changes what professionals do rather than simply reducing it (Watermeyer et al., 2024).
-
-Two gaps follow. First, most studies measure the output of human–AI collaboration, such as productivity or quality, rather than the composition and amount of work the human does to achieve it. Second, little research connects employees' experience of AI to the staffing decisions organisations make on the basis of expected AI savings. The framework developed here addresses both.
-
-### 2.3 The automation–augmentation debate and its blind spot
-
-The dominant management framing presents AI as either automating tasks, replacing human effort, or augmenting them, extending human capability, with augmentation usually seen as the more desirable path. Raisch and Krakowski (2021) argue that the two are interdependent over time: augmentation creates the knowledge that later enables automation, and automation creates new demands for human oversight. This insight is usually applied at the level of tasks or organisations. Applied at the level of the individual job, it suggests that when an employee hands a task to an AI agent, the job does not shrink by the size of that task. It changes shape. The employee stops producing some outputs and starts specifying, testing and supervising the system that produces them.
-
-The blind spot is that these new tasks are rarely counted. Organisations measure what an agent produces, but not the effort required to keep it producing well. The result is a systematic gap between the work saved as the organisation sees it and the work saved as the employee experiences it. This gap is the starting point of our framework.
-
-### 2.4 The Asia–Pacific context
-
-HRM practices and their outcomes differ substantially across the Asia–Pacific, reflecting institutional, cultural and economic conditions (Budhwar et al., 2016; Cooke, 2018; De Cieri et al., 2022). Several features of the region are relevant to AI adoption. Many organisations operate in hierarchical governance structures with high power distance (Hofstede, 2001), in which change is more often directed from above and innovations from below are less often formalised. Many compete on cost, especially in emerging economies and in export-oriented and outsourced service sectors, which strengthens the incentive to translate technology into labour savings. Labour markets in parts of the region include large shares of fixed-term, agency, outsourced and informal workers with limited protection. And levels of digital infrastructure, skills and regulation vary widely, so that the resources available to support AI adoption differ greatly between and within countries. These features do not apply uniformly, and treating the region as homogeneous would repeat the error of treating Western findings as universal (Bartram & Cooke, 2022). They do, however, identify conditions under which the risks we describe are likely to be greater.
+HRM research on AI has concentrated on AI used to manage people, in recruitment, analytics and algorithmic management (Meijerink et al., 2021; Prikshat et al., 2023; Vrontis et al., 2022), with reviews mapping its strategic and international implications (Budhwar et al., 2022; Malik et al., 2023) and regional studies examining adoption in HR functions (Sithambaram & Tajudeen, 2023). Research on algorithmic management shows that AI can become an instrument of control over workers (Kellogg et al., 2020). Generative AI has turned attention to employees who use AI in their own tasks (Bankins et al., 2024; Budhwar et al., 2023; Chowdhury et al., 2024). Two questions remain open: how much and what kind of work these employees do to make AI useful, and how organisations account for that work when they decide how many people they need.
 
 ## 3. Theoretical foundations
 
-### 3.1 Work design
+### 3.1 Work design and job demands–resources
 
-Work design theory holds that the content and organisation of tasks, activities and responsibilities shape motivation, wellbeing and performance (Hackman & Oldham, 1976; Morgeson & Humphrey, 2006). Parker and Grote (2022) argue that digital technologies make work design more important, not less, because the same technology can enrich or impoverish jobs depending on how it is implemented. The sociotechnical tradition makes the same point: technical and social systems must be designed together, and changes in technology reorganise the social relations of work (Trist & Bamforth, 1951). For employees working with AI agents, the relevant characteristics include autonomy over how the agent is used, skill and task variety, task significance, feedback from the job and workload.
+Work design theory holds that the content of tasks and responsibilities shapes motivation, wellbeing and performance (Hackman & Oldham, 1976; Morgeson & Humphrey, 2006), and that the effects of technology on jobs depend on implementation choices rather than on the technology itself (Parker & Grote, 2022; Trist & Bamforth, 1951). The JD-R model explains how job characteristics affect wellbeing: demands drive strain, resources drive engagement, and resources buffer demands (Bakker & Demerouti, 2007, 2017; Demerouti et al., 2001). Employees can reshape their demands and resources through job crafting (Tims & Bakker, 2010; Wrzesniewski & Dutton, 2001).
 
-### 3.2 Job demands–resources
+Not all demands are alike. Challenge demands, such as responsibility and complexity, are stressful but can promote growth and engagement; hindrance demands, such as role ambiguity and administrative hassles, are stressful and obstruct goal attainment (Cavanaugh et al., 2000; LePine et al., 2005). Technology-related demands follow the same pattern: technostress can be experienced as distress or as positive challenge (Tarafdar et al., 2007, 2019). The distinction allows more precise predictions about AI-related work than a single category of demand.
 
-The JD-R model classifies job characteristics as demands, which require sustained effort and carry physiological and psychological costs, and resources, which help achieve goals, reduce demands or stimulate growth (Demerouti et al., 2001; Bakker & Demerouti, 2007). Demands drive a health-impairment process leading to strain and burnout; resources drive a motivational process leading to engagement. Resources also buffer the effect of demands, and employees can change their own demands and resources through job crafting (Bakker & Demerouti, 2017; Tims et al., 2012; Wrzesniewski & Dutton, 2001).
+### 3.2 Invisible work
 
-Technology-related demands have been studied as technostress: the strain that arises when technology increases work pace and volume, intrudes into personal time or requires constant updating of skills (Tarafdar et al., 2007). Technology can also generate positive stress when it is experienced as a challenge rather than a threat (Tarafdar et al., 2019). This distinction is important for AI-related work, which some employees find stimulating and others exhausting.
+Star and Strauss (1999) distinguish invisible work, the unseen tasks of visible workers, from invisible workers, whose entire contribution is unseen. Work becomes invisible through cultural, spatial and legal mechanisms: when it is not regarded as skilled, when it happens away from where value is recognised, or when it falls outside the categories of employment law and contracts (Hatton, 2017). Invisible work has long been associated with gender and status (Daniels, 1987). Making work visible is not an unambiguous good: visibility can bring recognition, but also surveillance and standardisation (Suchman, 1995).
 
-### 3.3 Invisible work
+AI-related work fits both of Star and Strauss's categories. When the employees who use an agent configure and check it, the result is invisible work. When configuration, checking or data labelling is assigned to outsourced or platform workers, the result is invisible workers, the hidden labour on which automated systems rely (Gray & Suri, 2019).
 
-Star and Strauss (1999) describe work that is necessary but not seen, counted or rewarded, because it falls outside formal job descriptions or because its success makes it disappear. Configuring and maintaining AI agents fits this description closely. When an agent works well, others see only its output, and the effort that made it work is invisible. When it fails, the employee becomes visible as the person responsible. Invisibility is not a property of the work itself but of the way organisations define, measure and reward it, which makes it an HRM matter.
+### 3.3 Sustainable HRM
 
-### 3.4 Sustainable HRM
+Sustainable HRM asks whether HR practices reproduce the human resources an organisation depends on rather than extracting performance from them (Ehnert, 2009; Kramar, 2014). It draws on evidence that HRM can raise performance while lowering wellbeing, through work intensification (Green, 2004; Van De Voorde et al., 2012), and calls for HRM that treats employee wellbeing as an outcome in its own right (Guest, 2017). Applied to AI, it asks whether the gains from adoption are achieved by building employees' capacity or by depleting it, and it treats tensions such as those between visibility and autonomy as paradoxes to be managed (Ehnert, 2009).
 
-Sustainable HRM extends strategic HRM by asking whether HR practices reproduce the human resources an organisation depends on, rather than simply extracting performance from them (Ehnert, 2009; Kramar, 2014). It draws attention to long-term effects on employee health, skills and willingness to stay, and to the tensions between short-term efficiency and long-term viability, which it treats as paradoxes to be managed rather than resolved (Ehnert, 2009). Applied to AI, it asks whether the gains from adoption are achieved by depleting employees, for example by relying on unrecognised effort or by cutting staff on the basis of expected savings, or by building their capacity.
+### 3.4 Integration
 
-### 3.5 Integrating the lenses
+The lenses combine into a sequence. AI deployment changes the task composition of jobs (work design). Whether the new tasks are recognised depends on mechanisms of invisibility (invisible work). Recognised, self-directed tasks can act as challenges and resources, while unrecognised verification and accountability tasks act as hindrances (JD-R). HRM measurement and staffing decisions determine whether the outcome is sustained capacity or depletion (sustainable HRM). Employment systems shape each step. The framework does not claim that AI agents are good or bad for employees; it claims that their effects depend on organisational choices that HRM can influence.
 
-Each lens on its own explains part of the problem. Work design theory explains why the same AI deployment can enrich or impoverish a job, but says less about how the resulting job characteristics affect wellbeing over time. The JD-R model supplies that mechanism, but treats demands and resources as given rather than asking how they come to be defined and counted. The concept of invisible work fills this gap: whether a task is formally recognised determines whether it is allocated time, and therefore whether it replaces existing demands or adds to them. Sustainable HRM places these processes within the organisation's choices about how to use and reproduce its human resources, including its staffing decisions.
+## 4. Framework and propositions
 
-Combined, the lenses give a sequence. Technology deployment changes the task composition of jobs (work design). Some new tasks are recognised and some are not (invisible work). Unrecognised tasks act as additional demands, while recognised and self-directed ones can act as resources (JD-R). HRM practices determine which outcome dominates, and whether visible efficiency gains are converted into staffing cuts (sustainable HRM). Contextual conditions shape each step.
+Figure 1 summarises the framework and Table 1 defines its constructs and levels of analysis. Propositions 1 to 3 concern the job level, Propositions 4 to 6 the organisational level, and Propositions 7a to 7c the employment-system level.
 
-The integration also clarifies what the framework does not claim. It does not claim that AI agents are harmful to employees, nor that they are beneficial. It claims that their effect on work is indeterminate at the level of technology and determined by organisational choices that HRM can influence, consistent with the view that technology's effects on jobs are a matter of design rather than destiny (Parker & Grote, 2022).
+[Table 1 approx. here]
 
-## 4. A framework of human–AI collaboration, invisible work and the substitution trap
+[Figure 1 approx. here]
 
-Figure 1 summarises the framework. Deploying AI agents reconfigures employees' tasks (P1). The reconfiguration creates new demands (P2) and new resources (P3), whose balance depends on employees' control over the agents. Sustainable HRM practices moderate how these demands and resources affect employees (P4). Asia–Pacific contextual conditions shape both the HRM response and the distribution of demands (P5). Visible gains feed back into organisational decisions about scaling (P6) and staffing (P7).
+### 4.1 Net work and its conditions
 
-![Figure 1. A framework of human–AI collaboration, invisible work and the substitution trap. Solid arrows show the main paths; grey boxes are moderators; dashed boxes and arrows show feedback loops.](figure1.png)
+Deploying an agent delegates some tasks: drafting routine documents, answering routine queries, producing first-pass analyses. It also creates or expands others: specifying the agent's role and limits, writing and revising instructions, checking outputs, coordinating several agents, handling exceptions and complaints, explaining the system to others, managing model updates, and answering for outputs the employee did not write (Table 2). The delegated tasks are easy to count; the new tasks are iterative, irregular and often done outside scheduled time.
 
-*Table 1. Key constructs*
+[Table 2 approx. here]
 
-| Construct | Definition used in this paper |
-|---|---|
-| AI agent | A generative AI system that produces outputs for users or clients with some autonomy, within limits set by its configuration |
-| Delegated tasks | Tasks previously done by the employee that the agent now partly performs |
-| AI configuration and oversight work | Tasks of specifying, instructing, testing, coordinating, monitoring and correcting agents, and answering for their outputs |
-| Invisible work | Necessary work that is not formally described, measured or rewarded by the organisation (Star & Strauss, 1999) |
-| Employee control | The extent to which employees decide whether and how agents are configured and used in their work |
-| Substitution | Organisational decisions that reduce staffing, increase workload per employee or shift work to less secure employment on the basis of expected AI savings |
-| Substitution trap | The cycle in which substitution based on visible savings intensifies hidden work, raises insecurity, reduces innovation and erodes the quality of AI-supported work |
+Whether the net effect is a saving depends on two conditions. The first is **verification difficulty**: where outputs are easy to judge, as in many writing tasks, checking is quick and savings are large (Noy & Zhang, 2023); where errors are hard to detect or consequential, checking takes longer and responsibility is heavier (Dell'Acqua et al., 2023; Lebovitz et al., 2022). The second is **volatility**: configuration effort falls once an agent is stable, but recurs whenever the task or the underlying model changes, and models are updated by providers outside the organisation's control. Organisational measures based on outputs capture the delegated tasks but not the new ones, so they overstate savings systematically, and more so under these two conditions.
 
-### 4.1 Task reconfiguration
+> **Proposition 1.** Following the deployment of AI agents, the reduction in employees' working time is smaller than the reduction implied by output-based organisational measures. This gap is larger when the outputs are difficult to verify and when the agents or their underlying models change frequently.
 
-Deploying an AI agent changes the composition of the job. Tasks that involve producing routine outputs are partly delegated to the agent. New tasks appear: specifying the agent's role and limits; writing and revising its instructions; checking its outputs for accuracy and fit with organisational standards; coordinating several agents and their division of labour; monitoring use; handling exceptions and complaints; explaining the system to clients, colleagues and managers; managing cost, data protection and changes in the underlying model; and bearing accountability for outputs the employee did not produce. These tasks require a mix of domain, judgement and technical knowledge and are rarely described in job specifications.
+### 4.2 Challenge and hindrance demands
 
-*Table 2. Reconfiguration of work under AI agent deployment*
+The new tasks are not equivalent. Configuring an agent requires judgement and creativity and gives the employee influence over how work is done; it resembles a challenge demand. Verifying outputs and answering for errors one did not make involve vigilance, uncertainty and exposure without corresponding control; they resemble hindrance demands and the techno-overload and techno-uncertainty described in research on technostress (Tarafdar et al., 2007).
 
-| Tasks partly delegated to agents (visible, countable) | Tasks created or expanded for employees (less visible) |
-|---|---|
-| Drafting routine documents, reports and messages | Specifying each agent's role, limits and standards |
-| Responding to routine client or colleague queries | Writing, testing and revising agent instructions |
-| Producing first-pass analyses, summaries and code | Checking outputs for accuracy, fairness and compliance |
-| Generating variations of standard materials | Coordinating several agents and integrating their outputs |
-| | Monitoring use and identifying failures or misuse |
-| | Handling exceptions, complaints and disputed outputs |
-| | Explaining the system to clients, colleagues and managers |
-| | Managing cost, data protection and model updates |
-| | Bearing accountability for outputs not personally produced |
+> **Proposition 2.** Verification and accountability tasks created by AI agents are positively related to employee strain and unrelated or negatively related to engagement, whereas configuration tasks are positively related to engagement as well as to strain.
 
-The two columns are not equivalent in visibility. Tasks on the left are easy to count: numbers of documents, responses or cases handled. Tasks on the right are harder to count because they are iterative, irregular and often done outside scheduled time. The balance between the columns is also not fixed. Configuration work is front-loaded and may decline once an agent is stable, while verification and accountability continue. The net effect on workload may fall over time, but only if the task and the underlying model remain stable, which is rarely the case when providers update their models. The right-hand tasks also differ in kind: they are more judgement-intensive and carry more personal risk than the tasks they replace.
+### 4.3 Control
 
-> **Proposition 1.** The deployment of AI agents reallocates employees' work from the direct production of routine outputs towards configuration, orchestration, verification and accountability tasks, rather than reducing total work by the amount of the delegated tasks.
+The balance of challenge and hindrance depends on who decides how agents are used. When employees initiate and shape their use, the change functions as job crafting (Tims & Bakker, 2010), giving them autonomy, skill variety and visible impact (Hackman & Oldham, 1976). When agents are imposed and standardised from above, employees are left with verification and accountability but without configuration, and the agent comes closer to an instrument of control (Kellogg et al., 2020). Deployment does not therefore increase job resources in general; its effect depends on control.
 
-### 4.2 Hidden demands
+> **Proposition 3.** Employee control over the configuration of AI agents moderates the relationship between deployment and job resources: under high control, deployment increases autonomy and skill variety and is positively related to engagement; under low control, it reduces autonomy and is unrelated or negatively related to engagement.
 
-The new tasks carry demands that conventional workload measures are poorly placed to capture. Configuration is front-loaded and unpredictable; verification is continuous, because agent outputs can be wrong in ways that are hard to detect; and accountability is concentrated, because the employee is answerable for outputs they did not write. These demands resemble the techno-overload and techno-uncertainty components of technostress (Tarafdar et al., 2007). When the work is invisible, it is neither allocated time nor rewarded, and it becomes an additional demand on top of an unchanged formal workload.
+### 4.4 Recognition
 
-> **Proposition 2.** The configuration, verification and accountability work created by AI agents constitutes a job demand that is positively related to employee strain, and this relationship is stronger when the work is not recognised in formal workload allocation and performance evaluation.
+At the organisational level, the question is whether AI-related work is recognised in workload allocation, time, tools, training, accountability rules and reward. Recognition turns hidden demands into allocated work and acts as an organisational resource that buffers strain (Bakker & Demerouti, 2017; Guest, 2017). Recognition has a cost: formal measurement can bring surveillance and standardisation that reduce the autonomy on which Proposition 3 depends (Suchman, 1995). The sustainable HRM response is to recognise time and responsibility without prescribing how the work is done (Ehnert, 2009).
 
-### 4.3 New resources and the role of control
+> **Proposition 4.** Formal recognition and resourcing of AI configuration and oversight work weaken the positive relationship between verification and accountability tasks and employee strain.
 
-The same reconfiguration can also add resources. Employees who configure agents gain autonomy over a new part of their work, use a wider range of skills, see their effort reach more people and receive rapid information about results. These are motivating job characteristics (Hackman & Oldham, 1976; Morgeson & Humphrey, 2006). Whether they operate as resources depends on control. When employees initiate and shape how agents are used, the change functions as job crafting (Tims et al., 2012; Wrzesniewski & Dutton, 2001), and demands are more likely to be experienced as challenges (Tarafdar et al., 2019).
+### 4.5 Misreading and substitution
 
-When agents are imposed, standardised or monitored from above, the picture changes. Employees then keep the verification and accountability tasks in Table 2 but lose the configuration tasks that give them autonomy and meaning. The demands remain while the resources are removed, and the agent becomes closer to an instrument of algorithmic control than a tool of the employee (Kellogg et al., 2020). It may also erode professional role identity where the agent takes over judgements that employees regard as central to their work (Strich et al., 2021).
+Staffing decisions draw on what organisations measure. Where AI adoption is evaluated by output-based indicators, such as cases handled per employee or time to completion, the delegated tasks appear as saved capacity and the new tasks do not appear at all. Under cost pressure, this invites substitution: fewer positions, non-renewal of fixed-term contracts, larger workloads per employee, or the expectation that a few skilled users now support many teams. Misreading is more likely where employees have little voice, because those who do the hidden work are the only ones who can report it, and silence is common where speaking up seems futile or risky (Morrison, 2014).
 
-> **Proposition 3.** AI agent deployment increases job resources (autonomy, skill variety, task significance and feedback), and the positive relationship between deployment and work engagement is stronger when employees retain control over how agents are configured and used.
+> **Proposition 5.** The more an organisation evaluates AI adoption through output-based measures that omit configuration and oversight work, the more likely it is to reduce or casualise staffing after adoption. This relationship is stronger where channels for employee voice are weak.
 
-### 4.4 Sustainable HRM as a moderator
+### 4.6 The substitution trap
 
-Sustainable HRM practices can determine whether AI-related work regenerates or depletes employees. Relevant practices include counting configuration and oversight work in workload and job design; providing time, tools and budget for it; offering training and peer support; setting governance rules that clarify responsibility for agent outputs; and recognising the work in performance evaluation, reward and career progression. These practices act as organisational resources that buffer the demands identified in P2 (Bakker & Demerouti, 2017) and signal that the organisation values long-term capability over short-term efficiency (Ehnert, 2009; Kramar, 2014).
+Substitution based on misreading has consequences that can reinforce it. Because the hidden work grows with the volume of output an agent serves, not with the number of staff, each remaining employee carries more of it, intensifying work (Green, 2004; Kubicek et al., 2015). Because AI-supported performance depends on design and oversight, overloaded or departing employees leave errors uncaught, but the decline appears only after a delay. Because the staffing decision is no longer salient by then, the decline is likely to be attributed to employees' performance rather than to the cut, prompting closer monitoring, further intensification or further cuts. Repenning and Sterman (2001) describe the same structure in process improvement: managers who cut the time needed to maintain capability see short-term gains, attribute later decline to workers and respond in ways that deepen it.
 
-Sustainable HRM is not free of tension here. Formalising AI configuration work makes it visible, but it can also make it auditable and standardised, reducing the autonomy that made it a resource. Consistent with a paradox perspective (Ehnert, 2009), the implication is to recognise the time and responsibility involved without prescribing in detail how the work is done, and to leave decisions about agents with the employees who answer for them.
+Substitution also raises job insecurity. Awareness of AI in the workplace is associated with lower organisational commitment and higher turnover intentions (Brougham & Haar, 2018). Job insecurity has mixed effects: it can raise effort on measured tasks while reducing creativity and discretionary contribution (Probst et al., 2007; Shoss, 2017). In this setting, the mixed pattern matters: insecure employees may work harder on the visible outputs while withholding the unmeasured work of improving agents and sharing what they have built, which is the work the organisation depends on.
 
-> **Proposition 4.** Sustainable HRM practices that make AI configuration and oversight work visible and resourced weaken the relationship between that work and strain, and strengthen its relationship with engagement and retention.
+> **Proposition 6a.** Staff reductions following AI adoption increase the configuration and oversight load per remaining employee and, through it, employee strain.
+>
+> **Proposition 6b.** Staff reductions following AI adoption increase job insecurity, which reduces employees' willingness to improve and share AI applications even where measured output is maintained.
+>
+> **Proposition 6c.** When the decline in AI-supported performance that follows staff reductions is attributed to employees rather than to the reductions, organisations are more likely to respond with further monitoring, intensification or reductions, making substitution self-reinforcing.
 
-### 4.5 Asia–Pacific contextual conditions
+### 4.7 Asia–Pacific employment systems
 
-The conditions outlined in Section 2.4 affect different steps of the framework. Hierarchical governance affects recognition (P2 and P4): AI innovations initiated by employees are less likely to be formalised in workload, policy or reward when change is expected to come from above. Resource constraints affect the balance of demands and resources (P2 and P3): when organisations provide limited tools, training or budget, employees work around the limitations of cheaper systems, and verification and maintenance demands rise. Cost-driven competition affects the feedback loops (P6 and P7): where competitive advantage rests on labour cost, visible efficiency gains create strong pressure to scale AI and to convert savings into reduced staffing. Large precarious workforces affect who bears the consequences: where much routine work is done by fixed-term, agency or outsourced workers, the risks of substitution fall on those with the least protection and the least voice.
+Asian economies differ systematically in their institutions of employment, finance, skills and the state, forming distinct business-system clusters (Witt & Redding, 2013), and the wider Asia–Pacific includes the coordinated, consultation-based systems of Australia and New Zealand. We derive contrasting propositions for three configurations that differ in how labour is adjusted, where routine work is located and how much voice employees have.
 
-> **Proposition 5.** The relationship between AI agent deployment and unrecognised employee workload is stronger in organisations characterised by hierarchical governance, constrained resources and cost-driven competition, conditions common in parts of the Asia–Pacific.
+In **internal labour market systems**, such as large firms in Japan and South Korea, employment of core staff is long-term and adjustment typically occurs through reassignment, hiring freezes and non-replacement rather than dismissal [verified source to be added]. Substitution here is unlikely to appear as layoffs. It is more likely to appear as non-replacement of departing staff and the absorption of AI-related work by permanent employees, with strain concentrated in the core workforce and little visible signal that substitution has occurred.
 
-### 4.6 The scaling loop
+> **Proposition 7a.** In internal labour market systems, substitution following AI adoption takes the form of non-replacement and intensification rather than dismissal, so its costs fall mainly on permanent employees as increased strain.
 
-Successful AI initiatives generate visible signals, such as faster turnaround or higher output, that organisations can use to justify wider rollout. If scaling takes the form of an expectation that other employees adopt similar agents, or that those who built them support more teams, without corresponding resources, then a resource that was crafted voluntarily becomes an imposed demand. This is the point at which augmentation at the level of output becomes intensification at the level of the job.
+In **cost-arbitrage service economies**, such as IT-enabled and business process services in India and the Philippines, routine work for clients elsewhere is already organised for tight control and labour cost (Budhwar et al., 2006). AI agents threaten the routine tasks on which these jobs rest, while the configuration, checking and data work that AI requires is itself a candidate for outsourcing to lower-cost, less secure workers. Here the invisible work of AI is likely to become the work of invisible workers.
 
-> **Proposition 6.** Visible gains from AI agents increase organisational pressure to scale their use; when scaling is not accompanied by the HRM practices in Proposition 4, it converts AI configuration work from a crafted resource into an imposed demand.
+> **Proposition 7b.** In cost-arbitrage service economies, AI configuration and oversight work is more likely to be assigned to outsourced, fixed-term or platform workers, concentrating its costs among those with the least voice and protection.
 
-### 4.7 The substitution trap
+In **consultation-based systems**, such as Australia, employers are required to consult employees about major workplace change, including through consultation terms in enterprise agreements (Fair Work Act 2009 (Cth)). Consultation provides a channel through which hidden work can be reported before staffing decisions are made, weakening the misreading in Proposition 5.
 
-The final step concerns staffing. Organisations observe the visible part of the change: outputs produced without an employee producing them, and fewer routine tasks reaching staff. They do not observe the configuration, verification and accountability work described in P1 and P2. AI adoption therefore looks like freed capacity. Under cost pressure, this invites substitution: fewer positions, larger workloads per employee, non-renewal of fixed-term contracts, reduced use of agency or outsourced staff, or the expectation that a few skilled employees now support many teams.
-
-Substitution based on this misreading has four consequences. First, it intensifies the work of those who remain, because the hidden work does not shrink when staff numbers do; it grows with the volume of output the agents serve. Second, it tends to fall first on the most precarious workers, whose tasks are most easily described as routine. Third, it raises job insecurity more broadly. Job insecurity is associated with lower wellbeing, weaker attitudes to work and withdrawal of discretionary effort (Shoss, 2017). Here it creates a perverse incentive: employees who are able to build effective AI agents may hesitate to do so, or to share what they have built, if visible success is likely to be used to justify cutting jobs. The organisation then loses the bottom-up innovation it benefited from. Fourth, substitution carries a quality risk. Evidence from other settings suggests that the value of AI systems depends on their design and on continuing human oversight (Bastani et al., 2025; Lebovitz et al., 2022). If the people who make those choices are removed or overloaded, the performance that justified the cuts is likely to deteriorate.
-
-> **Proposition 7.** When organisations interpret AI agents as a substitute for employees and reduce or casualise staffing on that basis, (a) the workload and strain of remaining employees increase, (b) job insecurity increases, especially among precarious workers, (c) employees' willingness to develop and share AI innovations decreases, and (d) the quality of AI-supported work declines over time. These effects are weaker when staffing decisions are preceded by an assessment of the configuration and oversight work the agents require.
+> **Proposition 7c.** Where employers are legally required to consult employees on major workplace change, the relationship between output-based evaluation of AI and staff reductions (Proposition 5) is weaker.
 
 ## 5. Discussion
 
 ### 5.1 Theoretical implications
 
-For HRM research on AI, the framework shows that the level of analysis matters. At the level of output, AI agents augment work; at the level of the job, they can intensify it. Debates on automation and augmentation (Raisch & Krakowski, 2021) have focused mainly on the former. The framework brings the latter into view and connects it to established theories of work design and job demands and resources.
+The framework makes three contributions. First, it turns the familiar observation that automation creates new work (Acemoglu & Restrepo, 2019; Bainbridge, 1983) into conditional claims about when generative AI agents save net work and when they mainly relocate it. Verification difficulty and volatility explain why experimental studies report large savings (Noy & Zhang, 2023) while employees in other settings report extra work (Lebovitz et al., 2022). It also qualifies occupation-level estimates of automation risk (Frey & Osborne, 2017), which, as task-based analyses show, overstate displacement when they ignore variation in tasks within jobs (Arntz et al., 2016).
 
-For work design theory, the framework adds AI configuration and oversight as a distinct cluster of tasks with its own demands and resources. This cluster is likely to grow as organisations configure agents rather than buy finished systems, and it applies across sectors wherever employees tailor AI to their work.
+Second, it connects invisible work to HRM decisions. Research on ghost work and heteromation has shown that automated systems depend on hidden labour (Ekbia & Nardi, 2017; Gray & Suri, 2019), and organisational studies have documented the work that grows up around intelligent technologies (Beane, 2019; Waardenburg et al., 2022). The substitution trap explains how this invisibility feeds into staffing decisions and why those decisions can be self-reinforcing. For sustainable HRM, it identifies measurement as a mechanism of depletion: what is not measured cannot be resourced and is likely to be cut.
 
-For sustainable HRM, the framework identifies invisibility as a mechanism through which AI adoption can deplete human resources. Sustainable HRM has emphasised long-term effects on health and skills (Ehnert, 2009; Kramar, 2014); our analysis suggests that whether new work is seen and counted is a precondition for any sustainable response, and that staffing decisions are where the consequences of invisibility become most serious.
-
-For research on AI and employment, the substitution trap qualifies task-based predictions of labour displacement (Frey & Osborne, 2017). In knowledge work, tasks performed by AI are not simply removed from human jobs; they are partly replaced by new tasks of configuration and oversight that are harder to see. Staffing decisions that count only the removed tasks are likely to overestimate the labour saved.
-
-For Asia–Pacific HRM, the framework specifies conditions under which the burden of AI adoption is likely to be individualised and transferred to precarious workers, adding to calls for research that treats context as an explanatory variable rather than a backdrop (Bartram & Cooke, 2022; Budhwar et al., 2023; Cooke, 2018).
+Third, it treats Asia–Pacific context as explanatory. Rather than attributing outcomes to broad cultural traits, it derives contrasting propositions from differences in labour adjustment, the location of routine work and employee voice. The same technology is expected to produce intensification of core staff in one system, the transfer of hidden work to precarious workers in another, and a weaker trap in a third.
 
 ### 5.2 Boundary conditions and alternative views
 
-The framework applies most directly to knowledge and service work in which AI agents produce outputs that require judgement to evaluate. Where outputs are easily checked automatically, verification work will be smaller. It also applies most directly to agents that employees or teams configure themselves. Where organisations adopt finished systems with little scope for local configuration, configuration work shrinks but verification and accountability remain, and the autonomy-related resources in Proposition 3 are likely to be weaker.
+The framework applies most directly to knowledge and service work where outputs require judgement to evaluate, and to agents that employees or teams configure. Where outputs are easily checked or systems are bought ready-made, the hidden work is smaller or takes a different form.
 
-One alternative view holds that the additional work is a transitional cost: as employees learn and tools mature, hidden work will shrink and real savings will appear. The framework does not rule this out, but suggests two reasons for caution. First, the models on which agents run change frequently and outside the organisation's control, so stabilisation may be partial. Second, even if savings appear later, staffing decisions taken earlier on the basis of expected savings will already have produced the effects described in Proposition 7. The sequence of decisions matters as much as the eventual balance of work.
-
-A second alternative view is that employees who build AI agents do so voluntarily and enjoy it, so their extra work is not an HRM problem. Voluntary effort is indeed central to Proposition 3. But sustainable HRM is concerned precisely with whether organisations rely on effort they do not recognise or reproduce (Kramar, 2014). Voluntary innovation that becomes an organisational expectation, or the basis for staffing decisions, is no longer purely voluntary.
+One alternative view holds that hidden work is a transitional cost that will disappear as tools mature. Proposition 1 allows for this: as verification becomes easier and systems stabilise, the gap should narrow. But staffing decisions taken in the meantime will already have produced the effects in Propositions 6a to 6c. A second view holds that firms see the hidden work and cut staff anyway because net savings remain positive. Where that is so, there is no trap, and the framework predicts none. The trap arises where measurement omits the hidden work and decline is attributed to employees; Propositions 5 and 6c specify those conditions and allow them to be tested.
 
 ### 5.3 Practical implications
 
-For HR leaders, the framework suggests six actions. First, make AI configuration and oversight work visible by including it in job design, workload planning and performance evaluation. Second, provide resources at the point of employee initiative: time, appropriate tools and budget, technical support and peer networks. Third, clarify accountability for agent outputs, so that employees are not personally exposed for errors in systems the organisation benefits from. Fourth, recognise AI-related skills and contributions in reward and career progression. Fifth, when scaling successful initiatives, scale the resources along with the expectations.
-
-Sixth, and most important, do not treat AI adoption as evidence that staff can be reduced. Before any change to staffing levels, workloads or contract arrangements, assess the configuration, verification and accountability work the agents require, consult the employees who do it, and give particular attention to fixed-term, agency and outsourced workers. Making clear that successful AI innovation will not be used against those who produce it is a condition for continued innovation. In Asia–Pacific settings where hierarchical governance limits upward voice, HR functions have a particular responsibility to create channels through which employees can report the work AI creates.
-
-Table 3 summarises these practices and the propositions they address.
-
-*Table 3. Sustainable HRM practices and the propositions they address*
-
-| HRM practice | Purpose | Propositions |
-|---|---|---|
-| Include AI configuration and oversight in job design and workload planning | Make hidden work visible and allocate time to it | P1, P2, P4 |
-| Provide tools, budget, training and peer support | Reduce workarounds and build capability | P2, P4, P5 |
-| Preserve employee discretion over how agents are configured | Keep AI work a resource rather than a control device | P3 |
-| Clarify accountability for agent outputs | Reduce personal risk and uncertainty | P2, P4 |
-| Recognise AI contributions in reward and careers | Signal that the work is valued | P3, P4 |
-| Scale resources with expectations when rolling out | Prevent crafted work becoming imposed work | P6 |
-| Conduct a work assessment before staffing changes; protect precarious workers; create voice channels | Avoid the substitution trap | P5, P7 |
+For HR leaders, the framework suggests that AI adoption should be evaluated by the work it requires as well as the work it replaces. This means estimating configuration and oversight time before changing staffing, asking employees who do the work rather than relying on output indicators, preserving employees' discretion over how agents are configured, clarifying accountability for agent outputs, and recognising AI-related work in workload and reward. Where staff reductions are considered, the framework suggests monitoring performance over a period long enough to capture delayed effects, and treating declines as possible consequences of the reduction before attributing them to employees. In internal labour market systems, HR should watch for silent intensification; in outsourced services, for the transfer of hidden work to precarious workers; and in all systems, for weak voice as a source of misreading.
 
 ### 5.4 Research agenda
 
-The propositions can be tested in several ways. Time-use and diary studies could document how employees' tasks change after AI deployment, distinguishing delegated from created tasks (P1). Surveys could test the relationships between AI-related work, recognition, control, strain and engagement using validated JD-R, work design and technostress measures (P2–P4). Comparative studies across countries and sectors in the region could examine contextual conditions (P5), for example comparing organisations in highly digitalised and emerging economies. Longitudinal studies following AI initiatives from pilot to rollout could test the scaling loop (P6). Studies combining organisational staffing data with employee surveys on job insecurity and innovation behaviour could test the substitution trap (P7), ideally comparing organisations that did and did not adjust staffing after AI adoption. Multi-level designs would be especially valuable, since the framework links individual experiences to organisational decisions.
+Because invisible work is by definition not recorded, testing the propositions requires methods that capture it directly. Experience sampling and time-use diaries can record configuration and verification work as it happens (P1, P2). Digital trace data from AI tools can measure prompting, revision and checking. Comparing managers' and employees' estimates of time saved would provide a direct test of misreading (P1, P5). Multi-level surveys can test the moderating roles of control and recognition (P3, P4). Longitudinal organisational studies combining staffing data, performance records and attributions of decline can test the trap (P6a–P6c). Comparative studies across the configurations in Section 4.7 can test Propositions 7a to 7c.
 
 ## 6. Limitations
 
-This is a conceptual paper, and the propositions require empirical testing. The framework focuses on AI agents that produce outputs for others and on knowledge and service work; it does not address AI in manual or physical work, where configuration and verification may take different forms. It treats the Asia–Pacific through a set of general conditions rather than country-specific institutions, and the propositions will need to be adapted to particular national employment systems. Finally, the framework concentrates on employees who work directly with AI agents; the effects on colleagues, managers and clients deserve separate attention.
+The propositions require empirical testing. The framework focuses on knowledge and service work and on employees who use AI agents directly. It draws mainly on psychological and HRM theory and does not develop a labour process or industrial relations analysis, which would place more weight on conflict over control and the distribution of AI gains. The three Asia–Pacific configurations simplify substantial variation within and across countries, including the many economies, such as China and Vietnam, that fit none of them neatly. Finally, invisible work has been strongly gendered (Daniels, 1987), and how gender shapes who does AI-related work deserves separate attention.
 
 ## 7. Conclusion
 
-AI agents are often presented as a way to produce more with less human effort. Our answer to the question in the title is that, by themselves, they do not mean less work for employees: the work does not disappear but moves into configuration, verification and accountability tasks that organisations rarely see. The danger is that organisations treat the visible savings as real and the hidden work as non-existent, and reduce staffing accordingly. That would increase the burden on those who remain, fall hardest on precarious workers, discourage the innovation that made the tools useful, and weaken the quality of the work the tools were meant to improve. Treating AI-related work as work, and assessing it before making staffing decisions, is a first step towards human–AI collaboration that is sustainable for employees and organisations in the Asia–Pacific.
+AI agents are often presented as a way to produce more with less human effort. Our answer to the question in the title is that whether they reduce work depends on how easily their outputs can be checked and how stable they are, and that in many settings they relocate work into configuration, verification and accountability tasks that organisations do not measure. Staffing decisions based on what is measured can then remove the capacity that keeps AI useful, and the resulting decline can be blamed on the employees who remain. Seeing and resourcing AI-related work before restructuring is a condition for human–AI collaboration that is sustainable for employees and organisations across the Asia–Pacific.
 
----
+## Key points
 
-## Declarations
-
-**Ethics statement.** Not applicable; this conceptual paper reports no empirical data.
-
-**Data availability statement.** Data sharing is not applicable to this article as no new data were created or analysed.
-
-**Conflict of interest statement.** [To be completed.]
-
-**Funding statement.** [To be completed.]
-
-**Author contributions (CRediT).** [To be completed.]
-
-**Use of generative AI.** [To be completed in line with the journal's and Wiley's policy.]
+1. AI agents shift work to employees rather than simply removing it.
+2. Checking and answering for AI output is real work that is rarely measured.
+3. Cutting staff on visible AI savings can weaken performance and deepen cuts.
+4. Estimate the AI-related work involved, and consult employees, before restructuring.
+5. Risks differ across Asia–Pacific employment systems and fall hardest on precarious workers.
 
 ---
 
 ## References
 
-Bakker, A. B., & Demerouti, E. (2007). The Job Demands-Resources model: State of the art. *Journal of Managerial Psychology, 22*(3), 309–328. https://doi.org/10.1108/02683940710733115
-
-Bakker, A. B., & Demerouti, E. (2017). Job demands–resources theory: Taking stock and looking forward. *Journal of Occupational Health Psychology, 22*(3), 273–285. https://doi.org/10.1037/ocp0000056
-
-Bankins, S., Ocampo, A. C., Marrone, M., Restubog, S. L. D., & Woo, S. E. (2024). A multilevel review of artificial intelligence in organizations: Implications for organizational behavior research and practice. *Journal of Organizational Behavior, 45*(2), 159–182. https://doi.org/10.1002/job.2735
-
-Bartram, T., & Cooke, F. L. (2022). Celebrating the 60th anniversary of the *Asia Pacific Journal of Human Resources*: What has been achieved and what more can be done. *Asia Pacific Journal of Human Resources, 60*(1), 3–21. https://doi.org/10.1111/1744-7941.12320
-
-Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *Proceedings of the National Academy of Sciences, 122*(26), Article e2422633122. https://doi.org/10.1073/pnas.2422633122
-
-Brynjolfsson, E., Li, D., & Raymond, L. (2025). Generative AI at work. *The Quarterly Journal of Economics, 140*(2), 889–942. https://doi.org/10.1093/qje/qjae044
-
-Budhwar, P. S., Varma, A., & Patel, C. (2016). Convergence-divergence of HRM in the Asia-Pacific: Context-specific analysis and future research agenda. *Human Resource Management Review, 26*(4), 311–326. https://doi.org/10.1016/j.hrmr.2016.04.004
-
-Budhwar, P., Chowdhury, S., Wood, G., Aguinis, H., Bamber, G. J., Beltran, J. R., Boselie, P., Lee Cooke, F., Decker, S., DeNisi, A., Dey, P. K., Guest, D., Knoblich, A. J., Malik, A., Paauwe, J., Papagiannidis, S., Patel, C., Pereira, V., Ren, S., . . . Varma, A. (2023). Human resource management in the age of generative artificial intelligence: Perspectives and research directions on ChatGPT. *Human Resource Management Journal, 33*(3), 606–659. https://doi.org/10.1111/1748-8583.12524
-
-Budhwar, P., Malik, A., De Silva, M. T. T., & Thevisuthan, P. (2022). Artificial intelligence – challenges and opportunities for international HRM: A review and research agenda. *The International Journal of Human Resource Management, 33*(6), 1065–1097. https://doi.org/10.1080/09585192.2022.2035161
-
-Chowdhury, S., Budhwar, P., & Wood, G. (2024). Generative artificial intelligence in business: Towards a strategic human resource management framework. *British Journal of Management, 35*(4), 1680–1691. https://doi.org/10.1111/1467-8551.12824
-
-Cooke, F. L. (2018). Concepts, contexts, and mindsets: Putting human resource management research in perspectives. *Human Resource Management Journal, 28*(1), 1–13. https://doi.org/10.1111/1748-8583.12163
-
-De Cieri, H., Sanders, K., & Lin, C. (V.) (2022). International and comparative human resource management: An Asia-Pacific perspective. *Asia Pacific Journal of Human Resources, 60*(1), 116–145. https://doi.org/10.1111/1744-7941.12309
-
-Demerouti, E., Bakker, A. B., Nachreiner, F., & Schaufeli, W. B. (2001). The job demands-resources model of burnout. *Journal of Applied Psychology, 86*(3), 499–512. https://doi.org/10.1037/0021-9010.86.3.499
-
-Ehnert, I. (2009). *Sustainable human resource management: A conceptual and exploratory analysis from a paradox perspective*. Physica-Verlag. https://doi.org/10.1007/978-3-7908-2188-8
-
-Frey, C. B., & Osborne, M. A. (2017). The future of employment: How susceptible are jobs to computerisation? *Technological Forecasting and Social Change, 114*, 254–280. https://doi.org/10.1016/j.techfore.2016.08.019
-
-Hackman, J. R., & Oldham, G. R. (1976). Motivation through the design of work: Test of a theory. *Organizational Behavior and Human Performance, 16*(2), 250–279. https://doi.org/10.1016/0030-5073(76)90016-7
-
-Hofstede, G. (2001). *Culture's consequences: Comparing values, behaviors, institutions, and organizations across nations* (2nd ed.). Sage.
-
-Jaakkola, E. (2020). Designing conceptual articles: Four approaches. *AMS Review, 10*(1–2), 18–26. https://doi.org/10.1007/s13162-020-00161-0
-
-Kellogg, K. C., Valentine, M. A., & Christin, A. (2020). Algorithms at work: The new contested terrain of control. *Academy of Management Annals, 14*(1), 366–410. https://doi.org/10.5465/annals.2018.0174
-
-Kramar, R. (2014). Beyond strategic human resource management: Is sustainable human resource management the next approach? *The International Journal of Human Resource Management, 25*(8), 1069–1089. https://doi.org/10.1080/09585192.2013.816863
-
-Lebovitz, S., Lifshitz-Assaf, H., & Levina, N. (2022). To engage or not to engage with AI for critical judgments: How professionals deal with opacity when using AI for medical diagnosis. *Organization Science, 33*(1), 126–148. https://doi.org/10.1287/orsc.2021.1549
-
-Malik, A., Budhwar, P., & Kazmi, B. A. (2023). Artificial intelligence (AI)-assisted HRM: Towards an extended strategic framework. *Human Resource Management Review, 33*(1), Article 100940. https://doi.org/10.1016/j.hrmr.2022.100940
-
-Meijerink, J., Boons, M., Keegan, A., & Marler, J. (2021). Algorithmic human resource management: Synthesizing developments and cross-disciplinary insights on digital HRM. *The International Journal of Human Resource Management, 32*(12), 2545–2562. https://doi.org/10.1080/09585192.2021.1925326
-
-Morgeson, F. P., & Humphrey, S. E. (2006). The Work Design Questionnaire (WDQ): Developing and validating a comprehensive measure for assessing job design and the nature of work. *Journal of Applied Psychology, 91*(6), 1321–1339. https://doi.org/10.1037/0021-9010.91.6.1321
-
-Parker, S. K., & Grote, G. (2022). Automation, algorithms, and beyond: Why work design matters more than ever in a digital world. *Applied Psychology, 71*(4), 1171–1204. https://doi.org/10.1111/apps.12241
-
-Prikshat, V., Malik, A., & Budhwar, P. (2023). AI-augmented HRM: Antecedents, assimilation and multilevel consequences. *Human Resource Management Review, 33*(1), Article 100860. https://doi.org/10.1016/j.hrmr.2021.100860
-
-Raisch, S., & Krakowski, S. (2021). Artificial intelligence and management: The automation–augmentation paradox. *Academy of Management Review, 46*(1), 192–210. https://doi.org/10.5465/amr.2018.0072
-
-Shoss, M. K. (2017). Job insecurity: An integrative review and agenda for future research. *Journal of Management, 43*(6), 1911–1939. https://doi.org/10.1177/0149206317691574
-
-Sithambaram, R. A., & Tajudeen, F. P. (2023). Impact of artificial intelligence in human resource management: A qualitative study in the Malaysian context. *Asia Pacific Journal of Human Resources, 61*(4), 821–844. https://doi.org/10.1111/1744-7941.12356
-
-Star, S. L., & Strauss, A. (1999). Layers of silence, arenas of voice: The ecology of visible and invisible work. *Computer Supported Cooperative Work, 8*(1–2), 9–30. https://doi.org/10.1023/A:1008651105359
-
-Strich, F., Mayer, A.-S., & Fiedler, M. (2021). What do I do in a world of artificial intelligence? Investigating the impact of substitutive decision-making AI systems on employees' professional role identity. *Journal of the Association for Information Systems, 22*(2), 304–324. https://doi.org/10.17705/1jais.00663
-
-Tarafdar, M., Cooper, C. L., & Stich, J.-F. (2019). The technostress trifecta – techno eustress, techno distress and design: Theoretical directions and an agenda for research. *Information Systems Journal, 29*(1), 6–42. https://doi.org/10.1111/isj.12169
-
-Tarafdar, M., Tu, Q., Ragu-Nathan, B. S., & Ragu-Nathan, T. S. (2007). The impact of technostress on role stress and productivity. *Journal of Management Information Systems, 24*(1), 301–328. https://doi.org/10.2753/MIS0742-1222240109
-
-Tims, M., Bakker, A. B., & Derks, D. (2012). Development and validation of the job crafting scale. *Journal of Vocational Behavior, 80*(1), 173–186. https://doi.org/10.1016/j.jvb.2011.05.009
-
-Trist, E. L., & Bamforth, K. W. (1951). Some social and psychological consequences of the longwall method of coal-getting. *Human Relations, 4*(1), 3–38. https://doi.org/10.1177/001872675100400101
-
-Vrontis, D., Christofi, M., Pereira, V., Tarba, S., Makrides, A., & Trichina, E. (2022). Artificial intelligence, robotics, advanced technologies and human resource management: A systematic review. *The International Journal of Human Resource Management, 33*(6), 1237–1266. https://doi.org/10.1080/09585192.2020.1871398
-
-Watermeyer, R., Phipps, L., Lanclos, D., & Knight, C. (2024). Generative AI and the automating of academia. *Postdigital Science and Education, 6*(2), 446–466. https://doi.org/10.1007/s42438-023-00440-6
-
-Whetten, D. A. (1989). What constitutes a theoretical contribution? *Academy of Management Review, 14*(4), 490–495. https://doi.org/10.5465/amr.1989.4308371
-
-Wrzesniewski, A., & Dutton, J. E. (2001). Crafting a job: Revisioning employees as active crafters of their work. *Academy of Management Review, 26*(2), 179–201. https://doi.org/10.5465/amr.2001.4378011
