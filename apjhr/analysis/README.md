@@ -16,3 +16,13 @@ Steps:
 4. `plot_event.py event_study.csv figure3`.
 
 Results files: `ddd_results.csv`, `robustness.csv`, `event_study.csv`, `young_share_by_tercile.csv`.
+
+## Japan
+
+`japan/` holds the Japanese panel built from the Labour Force Survey (Statistics Bureau of Japan, e-Stat), the definition-based mapping of Japanese occupation groups to ISCO-08 sub-major groups (`jp_isco_map.csv`; no official detailed correspondence exists), sources (`jp_sources.csv`, `README_data.md`) and `analyse_jp.py`, which applies the same design to annual data for 2018–2025 (single 2020 census population basis), 30 occupation groups.
+
+## Three-country figure
+
+`plot_three.py us/us_event_study.csv event_study.csv japan/jp_event_study.csv ../figure2` produces Figure 2.
+
+Note: earlier runs also tried occupation-specific linear trends for Australia; these were numerically unstable with 43 clusters and are not reported.

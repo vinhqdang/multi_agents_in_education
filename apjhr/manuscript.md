@@ -1,12 +1,12 @@
 # The verification paradox: Artificial intelligence, expertise erosion and sustainable human resource management
 
-*Conceptual paper. Submission to the Asia Pacific Journal of Human Resources special issue "Human–AI Collaboration and Sustainable HRM in the Asia–Pacific". Anonymised for double-blind review.*
+*Conceptual paper with exploratory evidence. Submission to the Asia Pacific Journal of Human Resources special issue "Human–AI Collaboration and Sustainable HRM in the Asia–Pacific". Anonymised for double-blind review.*
 
 ---
 
 ## Abstract
 
-As generative artificial intelligence takes over routine knowledge work, the ability to judge whether its outputs are right becomes the scarce human contribution. This paper argues that the same technology erodes the way that ability is produced. Experts who can verify artificial intelligence learned their judgement by doing the routine work that artificial intelligence now does. Organisations that replace entry-level roles, or let artificial intelligence perform the learning-relevant parts of them, cut the future supply of verifiers. We call this the verification paradox. Using a stock-and-flow view of capability and sustainable human resource management, we develop propositions predicting that unchecked output accumulates as hidden verification debt, that early winners from substitution become later losers, that senior staff become both more valuable and more strained, and that the paradox takes different forms across Asia–Pacific employment systems, threatening the career ladder on which offshore-service economies have relied.
+As generative artificial intelligence takes over routine knowledge work, judging whether its outputs are right becomes the scarce human contribution. This paper argues that the same technology erodes how that judgement is produced, because experts learned it by doing the routine work artificial intelligence now performs. Organisations that cut entry-level roles, or let artificial intelligence perform their learning-relevant parts, reduce the future supply of people able to verify it. We call this the verification paradox. Drawing on sustainable human resource management and a stock-and-flow view of capability, we develop propositions on hidden verification debt, early winners becoming later losers, strain on senior staff and differences across Asia–Pacific employment systems. Exploratory analyses of public labour force data show that young workers' employment has fallen in exposed occupations in the United States and Australia since 2022, but not clearly in Japan.
 
 **Keywords:** artificial intelligence; expertise; skill formation; sustainable human resource management; verification
 
@@ -24,7 +24,7 @@ Put together, the two observations yield what we call the **verification paradox
 
 The paradox is a problem for sustainable HRM, which asks whether organisations reproduce the human resources they depend on rather than consuming them (Ehnert, 2009; Kramar, 2014). Sustainable HRM has been concerned mainly with employee health, wellbeing and employability. We argue that in AI-intensive work its central question becomes whether organisations regenerate their **oversight capability**: the stock of people able to verify, correct and take responsibility for AI output. Because this stock is built slowly and depleted invisibly, decisions that look efficient in the short run can leave organisations without the judgement on which their AI-supported performance depends.
 
-The paper makes three contributions. First, it identifies a mechanism, the verification paradox, that links two phenomena usually studied separately: the growing need for human oversight of AI and the decline of entry-level work. Second, using a stock-and-flow view of capability (Dierickx & Cool, 1989; Repenning & Sterman, 2001), it derives predictions that run against common expectations: that measured performance can improve while risk accumulates; that the organisations gaining most from AI in the short run are those most exposed later; and that individually rational decisions to cut entry-level hiring can produce a collective shortage of experts. Third, it shows how the paradox takes different forms across Asia–Pacific employment systems and why it poses a particular threat to economies whose development has relied on entry-level offshore services as a ladder into skilled work. The paper follows a model-building approach to conceptual research (Jaakkola, 2020; Whetten, 1989).
+The paper makes four contributions. First, it identifies a mechanism, the verification paradox, that links two phenomena usually studied separately: the growing need for human oversight of AI and the decline of entry-level work. Second, using a stock-and-flow view of capability (Dierickx & Cool, 1989; Repenning & Sterman, 2001), it derives predictions that run against common expectations: that measured performance can improve while risk accumulates; that the organisations gaining most from AI in the short run are those most exposed later; and that individually rational decisions to cut entry-level hiring can produce a collective shortage of experts. Third, it shows how the paradox takes different forms across Asia–Pacific employment systems and why it poses a particular threat to economies whose development has relied on entry-level offshore services as a ladder into skilled work. Fourth, it examines observable implications of the framework with public labour force data for the United States, Australia and Japan. The paper follows a model-building approach to conceptual research (Jaakkola, 2020; Whetten, 1989).
 
 ## 2. The verification paradox
 
@@ -67,14 +67,6 @@ Capabilities can be understood as stocks that accumulate through flows over time
 The two stocks are linked. Verification capacity depends on oversight capability, so a shrinking or overloaded stock of verifiers lets debt grow. Debt in turn consumes oversight capability when failures surface and experienced staff are diverted to repair them. The structure resembles the capability traps described in process improvement, where managers who cut the time needed to maintain capability see short-term gains, then attribute later decline to workers and respond with further pressure (Repenning & Sterman, 2001).
 
 The view makes three properties of the paradox explicit. Its costs are **delayed**, because the development of experts and the conversion of debt into failures both take time. They are **invisible** in standard measures, because headcount savings and output gains are recorded immediately while debt and the shrinking pipeline are not. And they are **cumulative**, because a lost cohort of newcomers cannot be recovered later by hiring more of them, owing to the time it takes to become expert.
-
-### 3.1 An illustration
-
-To show how these properties combine, Figure 2 presents a simple simulation of two otherwise identical organisations over the 15 years after they adopt AI. It illustrates the logic of the model and is not an empirical estimate; the parameters are chosen for exposition, and the code is available [removed for peer review]. In both organisations, AI-assisted output grows by 12% a year and the amount each experienced verifier can check grows by 8% a year as tools improve. Newcomers take about five years to become verifiers, experienced staff leave at 6% a year plus an increment that rises with overload, and 35% of verification debt turns into failures each year. Organisation A cuts entry-level hiring by 80% and lets AI perform 30% of the learning-relevant work of its remaining newcomers. Organisation B maintains hiring and formation.
-
-[Figure 2 approx. here]
-
-Three patterns follow. First, A's output-based performance exceeds B's from the first year and the gap widens throughout, because A produces the same output with fewer staff (panel a). Second, A's oversight capability keeps rising for several years as newcomers already in the pipeline mature, peaks around year four and then declines (panel b): the consequences of the hiring decision are invisible for years. Third, A records no AI-related failures until year nine, after which failures rise steeply while its measured performance continues to improve (panel c). In this illustration, the organisation that looks most successful on standard indicators is the one accumulating the most risk, and by the time failures appear, the missing cohorts cannot be replaced quickly because forming a verifier takes years.
 
 ## 4. Propositions
 
@@ -132,9 +124,43 @@ The paradox takes different forms across employment systems, which differ in how
 
 > **Proposition 7c.** In market-based employment systems, the sector-wide shortage of experienced verifiers predicted in Proposition 5 is greater than in internal labour market systems, unless offset by sector-level or public investment in skill formation.
 
-## 5. Discussion
+## 5. Exploratory evidence from three labour markets
 
-### 5.1 Theoretical implications
+The propositions concern processes inside organisations that public data cannot observe directly. One of them, however, leaves a trace in labour force statistics. If generative AI leads organisations to hire fewer newcomers for tasks it can perform (Proposition 2a), employment of young workers should fall relative to that of experienced workers in occupations more exposed to generative AI, beginning after the technology became widely available in late 2022. If the paradox takes the forms proposed in Section 4.7, the pattern should be stronger in market-based employment systems than in internal labour market systems. We examine both implications with public data for the United States, Australia and Japan. The analysis is exploratory: it tests observable implications of Propositions 2a and 7, not the mechanisms behind them.
+
+### 5.1 Data and design
+
+For Australia we use the Labour Force Survey of the Australian Bureau of Statistics (Australian Bureau of Statistics, 2026), which reports employment by age group for 43 occupation sub-major groups every quarter; we use February 2015 to February 2026. For the United States we use the Current Population Survey public-use files (U.S. Census Bureau, 2026) for January, April, July and October of 2017 to 2026, aggregated to 95 occupation minor groups. For Japan we use the annual Labour Force Survey tables of employment by age and occupation (Statistics Bureau of Japan, 2026), which distinguish 30 occupation groups; we use 2018 to 2025, the years estimated on a single population base.
+
+Exposure to generative AI is measured with the task-level index of the International Labour Organization (Gmyrek et al., 2025) for Australia and Japan. It is mapped to Australian occupations through the official correspondence between the Australian and international occupation classifications, and to Japanese occupations through occupation definitions, since no official detailed correspondence exists. For the United States we use the exposure measure of Eloundou et al. (2024), which also checks that the results do not depend on one measure. In all three countries the most exposed groups are clerical, numerical, sales-office and information technology occupations, and the least exposed are manual and personal-service occupations.
+
+Within each occupation and period, we compute the difference in log employment between a young age group (15–24 in Australia and Japan; 22–25 in the United States, following Brynjolfsson et al., 2025) and workers aged 35–54. We regress this gap on standardised exposure interacted with an indicator for periods after November 2022, with occupation and period fixed effects, weighting by young employment in 2019 and clustering standard errors by occupation. This is equivalent to a triple difference comparing young and older workers, more and less exposed occupations, and the periods before and after the release of ChatGPT. Event-study estimates by year, with 2022 as the reference, show whether the gap was already changing before 2022. Code and derived data are available [removed for peer review].
+
+### 5.2 Results
+
+Table 2 and Figure 2 summarise the results.
+
+[Table 2 approx. here]
+
+[Figure 2 approx. here]
+
+In the United States, employment of workers aged 22–25 fell relative to workers aged 35–54 in more exposed occupations after 2022, by 6.3% per standard deviation of exposure on average and by 8.1% in 2025–26. A placebo test dating the change to mid-2019 shows no comparable effect. The pattern matches that found by Brynjolfsson et al. (2025) with payroll data. For workers aged 26–30 the decline is smaller and not statistically significant.
+
+In Australia, employment of workers aged 15–24 fell by 3.9% per standard deviation of exposure after 2022, with the decline concentrated in 2025–26 (5.8%). Workers aged 25–34 show a decline of 4.8% in 2025–26. The Australian estimates need more caution than the American ones: a placebo test dated to 2019 also produces a negative estimate, reflecting a fall in young workers' relative employment in exposed occupations between 2015 and 2018. The event study shows the gap stable from 2018 to 2022 and widening from 2024.
+
+In Japan, the estimates for workers aged 15–24 are small and imprecise (−1.7% per standard deviation), and there is no decline for workers aged 25–34, whose relative employment in exposed occupations rose before 2022 and has been flat since.
+
+In both the United States and Australia, allowing for an exposure-specific linear trend estimated over the years before 2023 reduces the 2025–26 estimates for the youngest group to about 3.5% and 4.1% per standard deviation, which are no longer statistically significant at conventional levels.
+
+### 5.3 Interpretation
+
+Three conclusions follow, each with limits. First, the evidence is consistent with the elimination route in Proposition 2a. In two labour markets, measured with different data and different exposure indices, young workers' employment has fallen relative to that of experienced workers in the occupations where generative AI can perform most tasks. Second, the timing is consistent with the delays emphasised in Section 3: effects were small in 2023 and larger in 2025 and 2026. Third, the cross-country pattern points in the direction proposed in Section 4.7. The declines appear in the United States and Australia, market-based systems in which organisations rely more on external labour markets, and not clearly in Japan, where internal labour markets give firms a stake in forming their own future experts and where Proposition 7b expects hollowing rather than elimination.
+
+These conclusions are tentative. The data measure employment, not hiring, training or the content of jobs, so they cannot distinguish elimination from other causes of lower youth employment, and they say nothing about hollowing. Occupation groups are broad, especially in Japan, and exposure is measured with error. Other changes after 2022, such as higher interest rates that affected technology and finance employers, may have affected young workers in exposed occupations. The estimates are sensitive to assumptions about earlier trends, and the differences between countries are suggestive rather than statistically established. The evidence nonetheless indicates that the first link in the verification paradox, narrower entry into the occupations where AI is most capable, is visible in public data from the Asia–Pacific as well as from the United States.
+
+## 6. Discussion
+
+### 6.1 Theoretical implications
 
 For sustainable HRM, the paper identifies the regeneration of oversight capability as a central task of HRM in AI-intensive work. Sustainable HRM has emphasised employee wellbeing and employability; the verification paradox adds the reproduction of the judgement on which AI use depends, and shows why it is easily neglected: its costs are delayed, invisible in standard measures and cumulative.
 
@@ -142,41 +168,43 @@ For research on AI in HRM, which has concentrated on AI used to manage people an
 
 For research on technology and work, the paper links the ironies of automation (Bainbridge, 1983) to skill formation at the level of organisations and labour markets. Routine-biased technological change has been studied as a matter of which jobs disappear (Autor et al., 2003). The verification paradox draws attention to what disappears with them: the formation of the expertise that the remaining jobs require.
 
-### 5.2 Boundary conditions and alternative views
+### 6.2 Boundary conditions and alternative views
 
 The paradox is strongest where AI output is consequential and hard to verify, and where verification requires the same judgement as doing the work. It is weaker where outputs can be checked automatically or cheaply, as in some writing tasks where AI produces large time savings (Noy & Zhang, 2023).
 
 One objection is that AI itself will verify AI. Automated checking can reduce some debt, but where errors are consequential, someone must still decide whether the checks are adequate and take responsibility for the result, which returns the problem to human judgement at a higher level. A second objection is that verifying AI is a new skill that does not require having done the work. Some aspects of verification, such as knowing a system's typical failure modes, are indeed new. But the evidence that AI misleads people precisely where tasks fall outside its capabilities (Dell'Acqua et al., 2026) suggests that recognising those situations depends on domain expertise. A third objection is that AI can accelerate learning by acting as a tutor. This is possible where AI is designed to support rather than replace newcomers' effort (Bastani et al., 2025), and it is one of the formation practices covered by Proposition 6.
 
-### 5.3 Practical implications
+### 6.3 Practical implications
 
 For HR leaders, the paper implies five priorities. First, treat entry-level roles as investments in future oversight capability, not only as current labour costs, and assess the long-term effects before eliminating them. Second, redesign entry-level work so that newcomers practise without AI before using it, and learn by verifying AI output under supervision. Third, protect and recognise experienced staff, whose verification and mentoring work is both essential and invisible. Fourth, monitor oversight capability (who can verify what) and verification debt (how much output goes unchecked) alongside productivity. Fifth, because individual organisations have an incentive to free-ride on others' training, support sector-level arrangements for forming experienced workers. In offshore-service economies, this is also a matter for industry associations and public skills policy.
 
-### 5.4 Research agenda
+### 6.4 Research agenda
 
-The propositions can be tested with data that organisations already hold or can collect. Hiring records by seniority before and after AI adoption can test elimination (P2a). Comparisons of newcomers' performance with and without AI, and of their later unassisted performance, can test hollowing (P2b). Audits of samples of AI output can estimate verification debt and its relation to later errors (P1). Longitudinal comparisons of early and late adopters can test the early-winner, later-loser prediction (P3). Surveys of experienced staff can examine strain, workload and turnover (P4). Sector and country comparisons can test Propositions 5 and 7a to 7c.
+The propositions can be tested with data that organisations already hold or can collect. Hiring records by seniority before and after AI adoption, and linked employer–employee data, can test elimination (P2a) more directly than the labour force data in Section 5. Comparisons of newcomers' performance with and without AI, and of their later unassisted performance, can test hollowing (P2b). Audits of samples of AI output can estimate verification debt and its relation to later errors (P1). Longitudinal comparisons of early and late adopters can test the early-winner, later-loser prediction (P3). Surveys of experienced staff can examine strain, workload and turnover (P4). Sector and country comparisons can test Propositions 5 and 7a to 7c.
 
-## 6. Limitations
+## 7. Limitations
 
-The propositions require empirical testing, and the time horizons involved, years rather than months, make that testing demanding. The evidence on early-career employment and generative AI is recent and still developing. The argument concerns knowledge and service work in which outputs require judgement to verify; it does not apply equally to all work. The three Asia–Pacific configurations simplify substantial variation, including economies such as China and Vietnam that combine features of several configurations. Finally, the paper focuses on organisations and labour markets; the consequences for individual careers and for inequality between those who entered the workforce before and after generative AI deserve separate attention.
+The propositions require empirical testing, and the time horizons involved, years rather than months, make that testing demanding. The evidence in Section 5 is exploratory: it covers one observable implication, relies on broad occupation groups and is sensitive to assumptions about earlier trends. The argument concerns knowledge and service work in which outputs require judgement to verify; it does not apply equally to all work. The three Asia–Pacific configurations simplify substantial variation, including economies such as China and Vietnam that combine features of several configurations. Finally, the paper focuses on organisations and labour markets; the consequences for individual careers and for inequality between those who entered the workforce before and after generative AI deserve separate attention.
 
-## 7. Conclusion
+## 8. Conclusion
 
-Generative AI shifts the human contribution in knowledge work from producing outputs to judging them. That judgement is formed through the very work AI now performs. Organisations that capture AI's savings by cutting or hollowing entry-level work may enjoy improving performance for a time while accumulating unchecked risk and running down the expertise they will need to manage it. Avoiding the verification paradox requires HRM to treat expertise formation as a deliberate investment, and for economies in the Asia–Pacific that have climbed through entry-level services, to ask how the next generation of experts will be formed.
+Generative AI shifts the human contribution in knowledge work from producing outputs to judging them. That judgement is formed through the very work AI now performs. Early labour market data from the United States and Australia suggest that entry into the most exposed occupations is already narrowing. Organisations that capture AI's savings by cutting or hollowing entry-level work may enjoy improving performance for a time while accumulating unchecked risk and running down the expertise they will need to manage it. Avoiding the verification paradox requires HRM to treat expertise formation as a deliberate investment, and for economies in the Asia–Pacific that have climbed through entry-level services, to ask how the next generation of experts will be formed.
 
 ## Key points
 
 1. As artificial intelligence does routine work, judging its output becomes the key human skill.
 2. That judgement is learned through the routine work artificial intelligence now does.
 3. Cutting junior roles saves money now but shrinks future supply of experts.
-4. Track unchecked artificial intelligence output and expert capacity, not just productivity.
-5. Design junior roles for learning; offshore-service economies face the greatest risk.
+4. Early data show fewer young workers in exposed jobs in the United States and Australia.
+5. Design junior roles for learning, and track unchecked output alongside productivity.
 
 ---
 
 ## References
 
 Acemoglu, D., & Restrepo, P. (2019). Automation and new tasks: How technology displaces and reinstates labor. *Journal of Economic Perspectives, 33*(2), 3–30. https://doi.org/10.1257/jep.33.2.3
+
+Australian Bureau of Statistics. (2026). *Labour Force, Australia, Detailed, March 2026* (EQ07a: Employed persons by age, occupation sub-major group of main job (ANZSCO) and sex; EQ08: Employed persons by occupation unit group of main job (ANZSCO)). https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/mar-2026
 
 Autor, D. H., Levy, F., & Murnane, R. J. (2003). The skill content of recent technological change: An empirical exploration. *The Quarterly Journal of Economics, 118*(4), 1279–1333. https://doi.org/10.1162/003355303322552801
 
@@ -210,7 +238,11 @@ Ehnert, I. (2009). *Sustainable human resource management: A conceptual and expl
 
 Elish, M. C. (2019). Moral crumple zones: Cautionary tales in human-robot interaction. *Engaging Science, Technology, and Society, 5*, 40–60. https://doi.org/10.17351/ests2019.260
 
+Eloundou, T., Manning, S., Mishkin, P., & Rock, D. (2024). GPTs are GPTs: Labor market impact potential of LLMs. *Science, 384*(6702), 1306–1308. https://doi.org/10.1126/science.adj0998
+
 Ericsson, K. A., Krampe, R. T., & Tesch-Römer, C. (1993). The role of deliberate practice in the acquisition of expert performance. *Psychological Review, 100*(3), 363–406. https://doi.org/10.1037/0033-295X.100.3.363
+
+Gmyrek, P., Berg, J., Kamiński, K., Konopczyński, F., Ładna, A., Nafradi, B., Rosłaniec, K., & Troszyński, M. (2025). *Generative AI and jobs: A refined global index of occupational exposure* (ILO Working Paper 140). International Labour Organization. https://doi.org/10.54394/HETP0387
 
 Hashimoto, M. (1979). Bonus payments, on-the-job training, and lifetime employment in Japan. *Journal of Political Economy, 87*(5, Part 1), 1086–1104. https://doi.org/10.1086/260813
 
@@ -236,9 +268,13 @@ Shen, J. H., & Tamkin, A. (2026). *How AI impacts skill formation* [Preprint]. a
 
 Star, S. L., & Strauss, A. (1999). Layers of silence, arenas of voice: The ecology of visible and invisible work. *Computer Supported Cooperative Work, 8*(1–2), 9–30. https://doi.org/10.1023/A:1008651105359
 
+Statistics Bureau of Japan. (2026). *Labour Force Survey, Basic Tabulation, Table II-A: Employed persons by age group and occupation, annual averages 2018–2025* [Data set]. e-Stat. https://www.e-stat.go.jp/stat-search/files?toukei=00200531
+
 Stevens, M. (1994). A theoretical model of on-the-job training with imperfect competition. *Oxford Economic Papers, 46*(4), 537–562. https://doi.org/10.1093/oxfordjournals.oep.a042147
 
 Taylor, P., & Bain, P. (2005). 'India calling to the far away towns': The call centre labour process and globalization. *Work, Employment and Society, 19*(2), 261–282. https://doi.org/10.1177/0950017005053170
+
+U.S. Census Bureau. (2026). *Current Population Survey basic monthly public use files, 2017–2026* [Data set]. https://www2.census.gov/programs-surveys/cps/datasets/
 
 Vrontis, D., Christofi, M., Pereira, V., Tarba, S., Makrides, A., & Trichina, E. (2022). Artificial intelligence, robotics, advanced technologies and human resource management: A systematic review. *The International Journal of Human Resource Management, 33*(6), 1237–1266. https://doi.org/10.1080/09585192.2020.1871398
 
@@ -265,8 +301,21 @@ Yan, L., Greiff, S., Lodge, J. M., & Gašević, D. (2025). Distinguishing perfor
 | Deliberate expertise formation | Human resource practices designed to produce verification expertise, such as learning roles, practice without AI and supervised verification |
 | Employment system | The configuration of skill formation, location of entry-level work and allocation of experienced labour in an economy or sector |
 
-## Figure legend
+**Table 2.** Change in young workers' relative employment in occupations exposed to generative artificial intelligence after November 2022
+
+| Country and age group | Post-2022 average | 2025–26 | Placebo (2019) | Groups |
+|------------------------------|--------------|--------------|--------------|-----------|
+| United States, 22–25 | −6.3 (1.6)*** | −8.1 (1.6)*** | −2.2 (2.0) | 94 |
+| United States, 26–30 | −2.1 (1.3) | −2.8 (1.5) | 1.0 (1.1) | 94 |
+| Australia, 15–24 | −3.9 (1.8)* | −5.8 (2.6)* | −4.0 (1.7)* | 43 |
+| Australia, 25–34 | −2.6 (1.4) | −4.8 (2.0)* | −4.0 (1.3)** | 43 |
+| Japan, 15–24 | −1.7 (2.6) | −2.5 (3.8)† | – | 29 |
+| Japan, 25–34 | 2.9 (1.5) | 3.0 (1.9)† | – | 30 |
+
+*Notes:* Coefficients are percentage changes in young workers' employment relative to workers aged 35–54 per standard deviation of exposure, from weighted regressions of the log employment gap on exposure × period indicators with occupation and period fixed effects; standard errors clustered by occupation in parentheses. The placebo dates the change to 2019 (mid-2019 for the United States) using data before November 2022; it is not estimated for Japan because the comparable pre-period is too short. Data: United States, Current Population Survey 2017–2026 (four months a year), exposure from Eloundou et al. (2024); Australia, Labour Force Survey February 2015 to February 2026 (quarterly), and Japan, Labour Force Survey 2018–2025 (annual), exposure from Gmyrek et al. (2025). Groups: number of occupation groups. † 2025 only. * p < 0.05; ** p < 0.01; *** p < 0.001.
+
+## Figure legends
 
 **Figure 1.** A stock-and-flow view of the verification paradox. Rectangles are stocks: oversight capability (experienced verifiers) and verification debt (unchecked artificial intelligence output). Shaded arrows with circles are flows; thin arrows are causal links; dashed boxes are the two routes of erosion; the grey box is a human resource practice that strengthens newcomer formation. P1 to P7c refer to the propositions in the text. Artificial intelligence output raises measured performance while adding to verification debt; elimination and hollowing reduce the formation of new verifiers; failures divert experienced staff and increase pressure on them, accelerating their turnover.
 
-**Figure 2.** Illustrative simulation of two organisations after adopting artificial intelligence. Organisation A cuts entry-level hiring by 80% and lets artificial intelligence perform 30% of newcomers' learning-relevant work; Organisation B maintains hiring and formation. (a) Output per unit of labour cost; (b) number of experienced verifiers; (c) failures per year arising from unchecked output. Parameters are chosen for exposition and are not empirical estimates; see Section 3.1.
+**Figure 2.** Event-study estimates of young workers' relative employment in occupations more exposed to generative artificial intelligence. Each point is the change, relative to 2022, in the difference in log employment between the young age group and workers aged 35–54, per standard deviation of exposure, with 95% confidence intervals (standard errors clustered by occupation). (a) United States, Current Population Survey, ages 22–25, exposure from Eloundou et al. (2024); (b) Australia, Australian Bureau of Statistics Labour Force Survey, ages 15–24, exposure from Gmyrek et al. (2025); (c) Japan, Labour Force Survey, ages 15–24, 2018–2025, exposure from Gmyrek et al. (2025). The dashed line marks the release of ChatGPT in November 2022.

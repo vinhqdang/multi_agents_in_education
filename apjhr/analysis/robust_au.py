@@ -22,12 +22,9 @@ for young in ["15-24", "25-34"]:
     g["dd"] = g.expz * g.post
     g["dd25"] = g.expz * (g.date >= "2025-01-01")
     g["dd2324"] = g.expz * ((g.date >= "2023-01-01") & (g.date < "2025-01-01"))
-    # 1. occupation-specific linear trends estimated on full sample
-    est(g, "gap ~ dd + C(occ) + C(t) + C(occ):trend", "dd", "post x exposure, occupation trends", young)
     # 2. timing split
     est(g, "gap ~ dd2324 + dd25 + C(occ) + C(t)", "dd2324", "2023-24 x exposure", young)
     est(g, "gap ~ dd2324 + dd25 + C(occ) + C(t)", "dd25", "2025-26 x exposure", young)
-    est(g, "gap ~ dd2324 + dd25 + C(occ) + C(t) + C(occ):trend", "dd25", "2025-26 x exposure, occupation trends", young)
     # 3. pre-trend extrapolation: fit exposure-specific trend on 2018-2022, test deviation
     g18 = g[g.date >= "2018-01-01"].copy(); g18["pretr"] = g18.expz * g18.trend
     est(g18, "gap ~ dd2324 + dd25 + pretr + C(occ) + C(t)", "dd25", "2025-26 x exposure, from 2018 with exposure trend", young)
