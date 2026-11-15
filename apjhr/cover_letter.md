@@ -13,5 +13,5 @@ The content of this submission has not been published or submitted for publicati
 Yours sincerely,
 
 Quang-Vinh Dang
-British University Vietnam, Hung Yen, Vietnam
-vinh.dq4@buv.edu.vn
+British University Vietnam, Hung Yen 160000, Vietnam
+vinh.dq4@buv.edu.vn | +84 768 496935

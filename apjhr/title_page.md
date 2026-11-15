@@ -8,11 +8,11 @@
 
 **Author:** Quang-Vinh Dang, British University Vietnam, Hung Yen, Vietnam. Email: vinh.dq4@buv.edu.vn. ORCID: 0000-0002-3877-8024
 
-**Corresponding author:** Quang-Vinh Dang, British University Vietnam, Hung Yen, Vietnam. Email: vinh.dq4@buv.edu.vn
+**Corresponding author:** Quang-Vinh Dang, British University Vietnam, Hung Yen 160000, Vietnam. Email: vinh.dq4@buv.edu.vn. Telephone: +84 768 496935
 
 **Word count:** 7053 (including abstract, references, tables and figure legends)
 
-**Acknowledgements:** Generative AI tools were used to support the writing of this manuscript. The author reviewed and revised all content and takes full responsibility for it.
+**Acknowledgements:** Generative AI tools were used to support literature searching, verification of references, programming of the data analysis and preparation of figures, and to assist with drafting and editing the text. The author designed the study, checked all sources, analyses and outputs, and takes full responsibility for the content.
 
 **Funding statement:** This research received no specific grant from any funding agency in the public, commercial or not-for-profit sectors.
 
