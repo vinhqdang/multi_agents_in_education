@@ -10,7 +10,7 @@
 
 **Corresponding author:** [Name; full postal address; email; telephone]
 
-**Word count:** 6970 (including abstract, references, tables and figure legends)
+**Word count:** 7053 (including abstract, references, tables and figure legends)
 
 **Acknowledgements:** [Funding sources and any industrial links or affiliations; contributions of colleagues or institutions.] [Statement on the use of generative AI tools, as required by the journal's AI policy: name the tools and describe in detail what they were used for.]
 
